@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ISO 9001:2015 · Banco de práctica
 
-## Getting Started
+Aplicación de práctica para el examen de Gestión de la Calidad, construida a partir del banco de **100 casos y preguntas de ISO 9001:2015**.
 
-First, run the development server:
+Cada caso muestra una situación real, una pregunta y cuatro puntos de la norma. Al marcar una opción y comprobar, la app indica si acertaste, cuál era la respuesta correcta, la justificación y la cláusula de referencia. Al final se muestra el puntaje, el desempeño por bloque y una revisión de las preguntas falladas.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## Funciones
+
+- Examen completo de 100 preguntas en orden aleatorio.
+- Ronda rápida de 20 preguntas.
+- Práctica por bloque temático (A, B, C y D).
+- Feedback inmediato por pregunta.
+- Puntaje final, anillo de progreso y desglose por bloque.
+- Repaso de preguntas falladas y opción de repetir la sesión.
+- Mejor puntaje guardado en el navegador.
+- Diseño responsive para celular y escritorio.
+
+## Estructura (Scream Modular)
+
+La organización es por funcionalidad, no por tipo de archivo:
+
+```text
+app/
+  layout.tsx                  Configuración global y metadatos
+  page.tsx                    Punto de entrada de la ruta /
+  globals.css                 Tokens de diseño y estilos base
+src/
+  features/
+    quiz/                     Todo lo relacionado con la práctica
+      index.ts                API pública del módulo
+      components/
+        QuizApp.tsx           Orquesta inicio, sesión y resultados
+        start/                Pantalla de inicio y selección de sesión
+        session/              Pregunta, opciones, progreso y feedback
+        results/              Puntaje, bloques y revisión
+      data/
+        blocks.ts             Metadatos de los 4 bloques
+        questions/            Banco de 100 preguntas dividido por bloque
+      hooks/
+        useQuiz.ts            Estado y lógica de la sesión
+      lib/                    Scoring, mezcla y estilos por bloque
+      types.ts                Tipos del dominio
+  shared/
+    components/               Marca e iconos reutilizables
+    hooks/                    Hook del mejor puntaje
+    lib/                      Utilidades compartidas
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Desarrollo
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+pnpm install
+pnpm dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Abrir [http://localhost:3000](http://localhost:3000).
 
-## Learn More
+```bash
+pnpm lint
+pnpm build
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Fuente
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Banco de 100 casos y preguntas de ISO 9001:2015, cláusulas 4 a 10, principios, términos de ISO 9000 y auditoría con ISO 19011.
