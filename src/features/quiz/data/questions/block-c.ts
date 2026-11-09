@@ -12,24 +12,24 @@ export const BLOCK_C_QUESTIONS: Question[] = [
     "reference": "Cláusula 8.5.1 (incisos a al h).",
     "options": [
       {
+        "id": "7.5.1",
+        "tag": "7.5.1",
+        "label": "Información documentada: generalidades"
+      },
+      {
         "id": "8.5.1",
         "tag": "8.5.1",
         "label": "Producción y prestación del servicio"
       },
       {
-        "id": "7.5.3",
-        "tag": "7.5.3",
-        "label": "Control de la información documentada"
+        "id": "8.5.2",
+        "tag": "8.5.2",
+        "label": "Identificación y trazabilidad"
       },
       {
-        "id": "8.5.3",
-        "tag": "8.5.3",
-        "label": "Propiedad del cliente"
-      },
-      {
-        "id": "10.2",
-        "tag": "10.2",
-        "label": "No conformidad y acción correctiva"
+        "id": "8.5.4",
+        "tag": "8.5.4",
+        "label": "Preservación"
       }
     ],
     "correctOptionId": "8.5.1"
@@ -45,27 +45,27 @@ export const BLOCK_C_QUESTIONS: Question[] = [
     "reference": "Cláusula 8.5.1 f) (procesos especiales).",
     "options": [
       {
-        "id": "8.5.5",
-        "tag": "8.5.5",
-        "label": "Actividades posteriores a la entrega"
+        "id": "8.5.1f",
+        "tag": "8.5.1 f)",
+        "label": "Validación de procesos especiales"
       },
       {
-        "id": "8.7",
-        "tag": "8.7",
-        "label": "Salidas no conformes"
+        "id": "8.5.4",
+        "tag": "8.5.4",
+        "label": "Preservación"
+      },
+      {
+        "id": "8.6",
+        "tag": "8.6",
+        "label": "Liberación de productos y servicios"
       },
       {
         "id": "7.5.3",
         "tag": "7.5.3",
         "label": "Control de la información documentada"
-      },
-      {
-        "id": "8.5.1",
-        "tag": "8.5.1",
-        "label": "Producción y prestación del servicio"
       }
     ],
-    "correctOptionId": "8.5.1"
+    "correctOptionId": "8.5.1f"
   },
   {
     "id": 55,
@@ -83,19 +83,19 @@ export const BLOCK_C_QUESTIONS: Question[] = [
         "label": "Identificación y trazabilidad"
       },
       {
+        "id": "8.5.4",
+        "tag": "8.5.4",
+        "label": "Preservación"
+      },
+      {
         "id": "8.5.5",
         "tag": "8.5.5",
         "label": "Actividades posteriores a la entrega"
       },
       {
-        "id": "8.5.1g",
-        "tag": "8.5.1 g)",
-        "label": "Prevención de errores humanos"
-      },
-      {
-        "id": "7.5.3",
-        "tag": "7.5.3",
-        "label": "Control de la información documentada"
+        "id": "8.7",
+        "tag": "8.7",
+        "label": "Salidas no conformes"
       }
     ],
     "correctOptionId": "8.5.2"
@@ -111,14 +111,9 @@ export const BLOCK_C_QUESTIONS: Question[] = [
     "reference": "Cláusula 8.5.3.",
     "options": [
       {
-        "id": "8.7",
-        "tag": "8.7",
-        "label": "Salidas no conformes"
-      },
-      {
-        "id": "8.5.1g",
-        "tag": "8.5.1 g)",
-        "label": "Prevención de errores humanos"
+        "id": "8.5.2",
+        "tag": "8.5.2",
+        "label": "Identificación y trazabilidad"
       },
       {
         "id": "8.5.3",
@@ -126,9 +121,14 @@ export const BLOCK_C_QUESTIONS: Question[] = [
         "label": "Propiedad del cliente"
       },
       {
-        "id": "7.5.3",
-        "tag": "7.5.3",
-        "label": "Control de la información documentada"
+        "id": "8.5.4",
+        "tag": "8.5.4",
+        "label": "Preservación"
+      },
+      {
+        "id": "8.7",
+        "tag": "8.7",
+        "label": "Salidas no conformes"
       }
     ],
     "correctOptionId": "8.5.3"
@@ -144,9 +144,9 @@ export const BLOCK_C_QUESTIONS: Question[] = [
     "reference": "Cláusula 8.5.4 y su Nota.",
     "options": [
       {
-        "id": "8.7",
-        "tag": "8.7",
-        "label": "Salidas no conformes"
+        "id": "8.5.1",
+        "tag": "8.5.1",
+        "label": "Producción y prestación del servicio"
       },
       {
         "id": "8.5.4",
@@ -154,9 +154,9 @@ export const BLOCK_C_QUESTIONS: Question[] = [
         "label": "Preservación"
       },
       {
-        "id": "8.5.1g",
-        "tag": "8.5.1 g)",
-        "label": "Prevención de errores humanos"
+        "id": "8.5.5",
+        "tag": "8.5.5",
+        "label": "Actividades posteriores a la entrega"
       },
       {
         "id": "8.6",
@@ -177,9 +177,9 @@ export const BLOCK_C_QUESTIONS: Question[] = [
     "reference": "Cláusula 8.5.5 (incisos a al e).",
     "options": [
       {
-        "id": "8.5.6",
-        "tag": "8.5.6",
-        "label": "Control de cambios en la producción"
+        "id": "8.5.3",
+        "tag": "8.5.3",
+        "label": "Propiedad del cliente"
       },
       {
         "id": "8.5.4",
@@ -192,9 +192,9 @@ export const BLOCK_C_QUESTIONS: Question[] = [
         "label": "Actividades posteriores a la entrega"
       },
       {
-        "id": "8.5.1g",
-        "tag": "8.5.1 g)",
-        "label": "Prevención de errores humanos"
+        "id": "8.5.6",
+        "tag": "8.5.6",
+        "label": "Control de cambios en la producción"
       }
     ],
     "correctOptionId": "8.5.5"
@@ -210,6 +210,11 @@ export const BLOCK_C_QUESTIONS: Question[] = [
     "reference": "Cláusula 8.5.6.",
     "options": [
       {
+        "id": "8.5.3",
+        "tag": "8.5.3",
+        "label": "Propiedad del cliente"
+      },
+      {
         "id": "8.5.4",
         "tag": "8.5.4",
         "label": "Preservación"
@@ -220,14 +225,9 @@ export const BLOCK_C_QUESTIONS: Question[] = [
         "label": "Control de cambios en la producción"
       },
       {
-        "id": "7.5.3",
-        "tag": "7.5.3",
-        "label": "Control de la información documentada"
-      },
-      {
-        "id": "10.2",
-        "tag": "10.2",
-        "label": "No conformidad y acción correctiva"
+        "id": "8.6",
+        "tag": "8.6",
+        "label": "Liberación de productos y servicios"
       }
     ],
     "correctOptionId": "8.5.6"
@@ -243,9 +243,9 @@ export const BLOCK_C_QUESTIONS: Question[] = [
     "reference": "Cláusula 8.6 (segundo párrafo).",
     "options": [
       {
-        "id": "8.5.3",
-        "tag": "8.5.3",
-        "label": "Propiedad del cliente"
+        "id": "8.5.4",
+        "tag": "8.5.4",
+        "label": "Preservación"
       },
       {
         "id": "8.6",
@@ -253,14 +253,14 @@ export const BLOCK_C_QUESTIONS: Question[] = [
         "label": "Liberación de productos y servicios"
       },
       {
-        "id": "8.5.1g",
-        "tag": "8.5.1 g)",
-        "label": "Prevención de errores humanos"
-      },
-      {
         "id": "8.7",
         "tag": "8.7",
         "label": "Salidas no conformes"
+      },
+      {
+        "id": "10.2",
+        "tag": "10.2",
+        "label": "No conformidad y acción correctiva"
       }
     ],
     "correctOptionId": "8.6"
@@ -276,27 +276,27 @@ export const BLOCK_C_QUESTIONS: Question[] = [
     "reference": "Cláusula 8.6 (incisos a y b).",
     "options": [
       {
-        "id": "10.2",
-        "tag": "10.2",
-        "label": "No conformidad y acción correctiva"
-      },
-      {
-        "id": "8.6",
-        "tag": "8.6",
-        "label": "Liberación de productos y servicios"
-      },
-      {
         "id": "8.5.6",
         "tag": "8.5.6",
         "label": "Control de cambios en la producción"
       },
       {
+        "id": "8.6ab",
+        "tag": "8.6 a) y b)",
+        "label": "Evidencia de conformidad y trazabilidad de la liberación"
+      },
+      {
         "id": "8.7",
         "tag": "8.7",
         "label": "Salidas no conformes"
+      },
+      {
+        "id": "10.2",
+        "tag": "10.2",
+        "label": "No conformidad y acción correctiva"
       }
     ],
-    "correctOptionId": "8.6"
+    "correctOptionId": "8.6ab"
   },
   {
     "id": 62,
@@ -309,27 +309,27 @@ export const BLOCK_C_QUESTIONS: Question[] = [
     "reference": "Cláusula 8.7.1 (primer párrafo).",
     "options": [
       {
-        "id": "8.5.5",
-        "tag": "8.5.5",
-        "label": "Actividades posteriores a la entrega"
-      },
-      {
-        "id": "8.5.3",
-        "tag": "8.5.3",
-        "label": "Propiedad del cliente"
-      },
-      {
-        "id": "8.7",
-        "tag": "8.7",
-        "label": "Salidas no conformes"
-      },
-      {
         "id": "8.5.2",
         "tag": "8.5.2",
         "label": "Identificación y trazabilidad"
+      },
+      {
+        "id": "8.5.4",
+        "tag": "8.5.4",
+        "label": "Preservación"
+      },
+      {
+        "id": "8.7.1",
+        "tag": "8.7.1",
+        "label": "Identificar y controlar salidas no conformes"
+      },
+      {
+        "id": "8.6",
+        "tag": "8.6",
+        "label": "Liberación de productos y servicios"
       }
     ],
-    "correctOptionId": "8.7"
+    "correctOptionId": "8.7.1"
   },
   {
     "id": 63,
@@ -342,27 +342,27 @@ export const BLOCK_C_QUESTIONS: Question[] = [
     "reference": "Cláusula 8.7.1 (incisos a al d).",
     "options": [
       {
-        "id": "8.5.3",
-        "tag": "8.5.3",
-        "label": "Propiedad del cliente"
-      },
-      {
-        "id": "8.5.4",
-        "tag": "8.5.4",
-        "label": "Preservación"
-      },
-      {
         "id": "8.5.5",
         "tag": "8.5.5",
         "label": "Actividades posteriores a la entrega"
       },
       {
-        "id": "8.7",
-        "tag": "8.7",
-        "label": "Salidas no conformes"
+        "id": "8.6",
+        "tag": "8.6",
+        "label": "Liberación de productos y servicios"
+      },
+      {
+        "id": "8.7.1a",
+        "tag": "8.7.1 a) al d)",
+        "label": "Formas de tratar una salida no conforme"
+      },
+      {
+        "id": "10.2",
+        "tag": "10.2",
+        "label": "No conformidad y acción correctiva"
       }
     ],
-    "correctOptionId": "8.7"
+    "correctOptionId": "8.7.1a"
   },
   {
     "id": 64,
@@ -375,27 +375,27 @@ export const BLOCK_C_QUESTIONS: Question[] = [
     "reference": "Cláusula 8.7.2 (incisos a al d).",
     "options": [
       {
-        "id": "8.5.1",
-        "tag": "8.5.1",
-        "label": "Producción y prestación del servicio"
-      },
-      {
-        "id": "10.2",
-        "tag": "10.2",
-        "label": "No conformidad y acción correctiva"
-      },
-      {
         "id": "7.5.3",
         "tag": "7.5.3",
         "label": "Control de la información documentada"
       },
       {
-        "id": "8.7",
-        "tag": "8.7",
-        "label": "Salidas no conformes"
+        "id": "8.6",
+        "tag": "8.6",
+        "label": "Liberación de productos y servicios"
+      },
+      {
+        "id": "8.7.2",
+        "tag": "8.7.2",
+        "label": "Información documentada de NC y concesiones"
+      },
+      {
+        "id": "10.2",
+        "tag": "10.2",
+        "label": "No conformidad y acción correctiva"
       }
     ],
-    "correctOptionId": "8.7"
+    "correctOptionId": "8.7.2"
   },
   {
     "id": 65,
@@ -408,24 +408,24 @@ export const BLOCK_C_QUESTIONS: Question[] = [
     "reference": "Cláusula 9.1.1 (incisos a al d).",
     "options": [
       {
-        "id": "10.2",
-        "tag": "10.2",
-        "label": "No conformidad y acción correctiva"
-      },
-      {
-        "id": "9.2",
-        "tag": "9.2",
-        "label": "Auditoría interna"
-      },
-      {
         "id": "9.1.1",
         "tag": "9.1.1",
         "label": "Seguimiento, medición, análisis y evaluación"
       },
       {
+        "id": "9.1.2",
+        "tag": "9.1.2",
+        "label": "Satisfacción del cliente"
+      },
+      {
         "id": "9.1.3",
         "tag": "9.1.3",
         "label": "Análisis y evaluación"
+      },
+      {
+        "id": "9.2",
+        "tag": "9.2",
+        "label": "Auditoría interna"
       }
     ],
     "correctOptionId": "9.1.1"
@@ -446,14 +446,14 @@ export const BLOCK_C_QUESTIONS: Question[] = [
         "label": "Seguimiento, medición, análisis y evaluación"
       },
       {
-        "id": "10.2",
-        "tag": "10.2",
-        "label": "No conformidad y acción correctiva"
-      },
-      {
         "id": "9.1.2",
         "tag": "9.1.2",
         "label": "Satisfacción del cliente"
+      },
+      {
+        "id": "9.1.3",
+        "tag": "9.1.3",
+        "label": "Análisis y evaluación"
       },
       {
         "id": "9.3",
@@ -474,14 +474,9 @@ export const BLOCK_C_QUESTIONS: Question[] = [
     "reference": "Cláusula 9.1.3 (incisos a al g).",
     "options": [
       {
-        "id": "10.1",
-        "tag": "10.1",
-        "label": "Mejora: generalidades"
-      },
-      {
-        "id": "10.2",
-        "tag": "10.2",
-        "label": "No conformidad y acción correctiva"
+        "id": "9.1.1",
+        "tag": "9.1.1",
+        "label": "Seguimiento, medición, análisis y evaluación"
       },
       {
         "id": "9.1.2",
@@ -492,6 +487,11 @@ export const BLOCK_C_QUESTIONS: Question[] = [
         "id": "9.1.3",
         "tag": "9.1.3",
         "label": "Análisis y evaluación"
+      },
+      {
+        "id": "10.2",
+        "tag": "10.2",
+        "label": "No conformidad y acción correctiva"
       }
     ],
     "correctOptionId": "9.1.3"
@@ -507,19 +507,19 @@ export const BLOCK_C_QUESTIONS: Question[] = [
     "reference": "Cláusula 9.2.2 c) | ISO 19011 (principios de auditoría).",
     "options": [
       {
-        "id": "10.1",
-        "tag": "10.1",
-        "label": "Mejora: generalidades"
+        "id": "9.2.1",
+        "tag": "9.2.1",
+        "label": "Programa de auditoría"
       },
       {
-        "id": "9.3",
-        "tag": "9.3",
-        "label": "Revisión por la dirección"
+        "id": "9.2.2a",
+        "tag": "9.2.2 a)",
+        "label": "Importancia de los procesos"
       },
       {
-        "id": "9.2",
-        "tag": "9.2",
-        "label": "Auditoría interna"
+        "id": "9.2.2c",
+        "tag": "9.2.2 c)",
+        "label": "Objetividad e imparcialidad del auditor"
       },
       {
         "id": "10.2",
@@ -527,7 +527,7 @@ export const BLOCK_C_QUESTIONS: Question[] = [
         "label": "No conformidad y acción correctiva"
       }
     ],
-    "correctOptionId": "9.2"
+    "correctOptionId": "9.2.2c"
   },
   {
     "id": 69,
@@ -540,27 +540,27 @@ export const BLOCK_C_QUESTIONS: Question[] = [
     "reference": "Cláusula 9.2.2 a) y 9.2.1.",
     "options": [
       {
+        "id": "9.2.1",
+        "tag": "9.2.1",
+        "label": "Programa de auditoría"
+      },
+      {
+        "id": "9.2.2c",
+        "tag": "9.2.2 c)",
+        "label": "Objetividad e imparcialidad"
+      },
+      {
+        "id": "9.3",
+        "tag": "9.3",
+        "label": "Revisión por la dirección"
+      },
+      {
         "id": "10.3",
         "tag": "10.3",
         "label": "Mejora continua"
-      },
-      {
-        "id": "9.2",
-        "tag": "9.2",
-        "label": "Auditoría interna"
-      },
-      {
-        "id": "9.1.2",
-        "tag": "9.1.2",
-        "label": "Satisfacción del cliente"
-      },
-      {
-        "id": "8.7",
-        "tag": "8.7",
-        "label": "Salidas no conformes"
       }
     ],
-    "correctOptionId": "9.2"
+    "correctOptionId": "9.2.1"
   },
   {
     "id": 70,
@@ -573,9 +573,9 @@ export const BLOCK_C_QUESTIONS: Question[] = [
     "reference": "Cláusula 9.3.2 (incisos a al f).",
     "options": [
       {
-        "id": "10.1",
-        "tag": "10.1",
-        "label": "Mejora: generalidades"
+        "id": "9.1.3",
+        "tag": "9.1.3",
+        "label": "Análisis y evaluación"
       },
       {
         "id": "9.2",
@@ -583,17 +583,17 @@ export const BLOCK_C_QUESTIONS: Question[] = [
         "label": "Auditoría interna"
       },
       {
-        "id": "9.1.3",
-        "tag": "9.1.3",
-        "label": "Análisis y evaluación"
+        "id": "9.3.2",
+        "tag": "9.3.2",
+        "label": "Entradas de la revisión por la dirección"
       },
       {
-        "id": "9.3",
-        "tag": "9.3",
-        "label": "Revisión por la dirección"
+        "id": "10.1",
+        "tag": "10.1",
+        "label": "Mejora: generalidades"
       }
     ],
-    "correctOptionId": "9.3"
+    "correctOptionId": "9.3.2"
   },
   {
     "id": 71,
@@ -606,9 +606,14 @@ export const BLOCK_C_QUESTIONS: Question[] = [
     "reference": "Cláusula 9.3.3 (incisos a al c).",
     "options": [
       {
-        "id": "9.3",
-        "tag": "9.3",
-        "label": "Revisión por la dirección"
+        "id": "9.3.3",
+        "tag": "9.3.3",
+        "label": "Salidas de la revisión por la dirección"
+      },
+      {
+        "id": "9.1.2",
+        "tag": "9.1.2",
+        "label": "Satisfacción del cliente"
       },
       {
         "id": "10.1",
@@ -619,34 +624,24 @@ export const BLOCK_C_QUESTIONS: Question[] = [
         "id": "10.2",
         "tag": "10.2",
         "label": "No conformidad y acción correctiva"
-      },
-      {
-        "id": "9.1.2",
-        "tag": "9.1.2",
-        "label": "Satisfacción del cliente"
       }
     ],
-    "correctOptionId": "9.3"
+    "correctOptionId": "9.3.3"
   },
   {
     "id": 72,
     "block": "C",
     "title": "PLANTA DE CONSERVAS EN CHIMBOTE (SOLO APAGAR INCENDIOS)",
     "situation": "La empresa solo reacciona ante quejas y errores. Nunca analiza oportunidades de mejorar ni las necesidades futuras de sus clientes. Su competidor lanzó un envase más práctico.",
-    "question": "¿Qué debe incluir la mejora según 10.1?",
+    "question": "¿Qué debe incluir la mejora de productos, servicios y del SGC?",
     "answer": "Mejorar productos y servicios para cumplir requisitos y considerar necesidades futuras, corregir y prevenir efectos no deseados, y mejorar el desempeño y la eficacia del SGC.",
     "simple": "Es arreglar siempre el techo con goteras, pero nunca pensar en ampliar la casa.",
     "reference": "Cláusula 10.1 (incisos a, b y c).",
     "options": [
       {
-        "id": "9.1.1",
-        "tag": "9.1.1",
-        "label": "Seguimiento, medición, análisis y evaluación"
-      },
-      {
-        "id": "10.1",
-        "tag": "10.1",
-        "label": "Mejora: generalidades"
+        "id": "6.1",
+        "tag": "6.1",
+        "label": "Acciones para abordar riesgos y oportunidades"
       },
       {
         "id": "9.1.3",
@@ -654,9 +649,14 @@ export const BLOCK_C_QUESTIONS: Question[] = [
         "label": "Análisis y evaluación"
       },
       {
-        "id": "6.1",
-        "tag": "6.1",
-        "label": "Acciones para abordar riesgos y oportunidades"
+        "id": "10.1",
+        "tag": "10.1",
+        "label": "Mejora: generalidades"
+      },
+      {
+        "id": "10.3",
+        "tag": "10.3",
+        "label": "Mejora continua"
       }
     ],
     "correctOptionId": "10.1"
@@ -677,14 +677,14 @@ export const BLOCK_C_QUESTIONS: Question[] = [
         "label": "Salidas no conformes"
       },
       {
-        "id": "9.2",
-        "tag": "9.2",
-        "label": "Auditoría interna"
+        "id": "10.1",
+        "tag": "10.1",
+        "label": "Mejora: generalidades"
       },
       {
-        "id": "10.2",
-        "tag": "10.2",
-        "label": "No conformidad y acción correctiva"
+        "id": "10.2.1",
+        "tag": "10.2.1",
+        "label": "Analizar la NC y determinar causas"
       },
       {
         "id": "10.3",
@@ -692,7 +692,7 @@ export const BLOCK_C_QUESTIONS: Question[] = [
         "label": "Mejora continua"
       }
     ],
-    "correctOptionId": "10.2"
+    "correctOptionId": "10.2.1"
   },
   {
     "id": 74,
@@ -705,19 +705,19 @@ export const BLOCK_C_QUESTIONS: Question[] = [
     "reference": "Cláusula 10.2.1 d), e) y f).",
     "options": [
       {
-        "id": "9.2",
-        "tag": "9.2",
-        "label": "Auditoría interna"
-      },
-      {
-        "id": "10.2",
-        "tag": "10.2",
-        "label": "No conformidad y acción correctiva"
-      },
-      {
         "id": "9.3",
         "tag": "9.3",
         "label": "Revisión por la dirección"
+      },
+      {
+        "id": "10.2.1d",
+        "tag": "10.2.1 d)",
+        "label": "Revisar la eficacia de la acción correctiva"
+      },
+      {
+        "id": "10.3",
+        "tag": "10.3",
+        "label": "Mejora continua"
       },
       {
         "id": "9.1.3",
@@ -725,7 +725,7 @@ export const BLOCK_C_QUESTIONS: Question[] = [
         "label": "Análisis y evaluación"
       }
     ],
-    "correctOptionId": "10.2"
+    "correctOptionId": "10.2.1d"
   },
   {
     "id": 75,
@@ -738,9 +738,9 @@ export const BLOCK_C_QUESTIONS: Question[] = [
     "reference": "Cláusula 10.2.2 (incisos a y b).",
     "options": [
       {
-        "id": "6.1",
-        "tag": "6.1",
-        "label": "Acciones para abordar riesgos y oportunidades"
+        "id": "7.5.3",
+        "tag": "7.5.3",
+        "label": "Control de la información documentada"
       },
       {
         "id": "9.2",
@@ -748,17 +748,17 @@ export const BLOCK_C_QUESTIONS: Question[] = [
         "label": "Auditoría interna"
       },
       {
-        "id": "9.1.2",
-        "tag": "9.1.2",
-        "label": "Satisfacción del cliente"
+        "id": "10.2.2",
+        "tag": "10.2.2",
+        "label": "Información documentada de NC y acciones"
       },
       {
-        "id": "10.2",
-        "tag": "10.2",
-        "label": "No conformidad y acción correctiva"
+        "id": "10.3",
+        "tag": "10.3",
+        "label": "Mejora continua"
       }
     ],
-    "correctOptionId": "10.2"
+    "correctOptionId": "10.2.2"
   },
   {
     "id": 76,
@@ -771,24 +771,24 @@ export const BLOCK_C_QUESTIONS: Question[] = [
     "reference": "Cláusula 10.3.",
     "options": [
       {
-        "id": "9.1.1",
-        "tag": "9.1.1",
-        "label": "Seguimiento, medición, análisis y evaluación"
-      },
-      {
         "id": "9.1.3",
         "tag": "9.1.3",
         "label": "Análisis y evaluación"
       },
       {
+        "id": "9.3",
+        "tag": "9.3",
+        "label": "Revisión por la dirección"
+      },
+      {
+        "id": "10.1",
+        "tag": "10.1",
+        "label": "Mejora: generalidades"
+      },
+      {
         "id": "10.3",
         "tag": "10.3",
         "label": "Mejora continua"
-      },
-      {
-        "id": "9.1.2",
-        "tag": "9.1.2",
-        "label": "Satisfacción del cliente"
       }
     ],
     "correctOptionId": "10.3"

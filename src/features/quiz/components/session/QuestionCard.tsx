@@ -48,7 +48,7 @@ export function QuestionCard({
       <div className="mt-7">
         <div className="mb-3 flex items-center justify-between gap-3">
           <p className="text-[11px] font-bold uppercase tracking-[0.16em] text-muted">
-            Marca el punto de la ISO 9001:2015
+            Marca la respuesta correcta
           </p>
           <span className="hidden text-[11px] text-muted sm:inline">Una sola respuesta</span>
         </div>

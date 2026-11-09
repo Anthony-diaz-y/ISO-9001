@@ -77,9 +77,9 @@ export function StartScreen({ bestScore, onStart }: StartScreenProps) {
           </h1>
 
           <p className="mt-5 max-w-xl text-[15px] leading-7 text-slate-600 sm:text-base">
-            100 casos reales para identificar la cláusula exacta de la ISO 9001:2015.
-            Elige el punto que corresponde, recibe feedback al instante y llega al
-            examen con seguridad.
+            100 casos reales para identificar la cláusula, el principio o el concepto
+            exacto de la ISO 9001:2015. Elige la opción que corresponde, recibe feedback
+            al instante y llega al examen con seguridad.
           </p>
 
           <div className="mt-8 grid grid-cols-3 gap-2 sm:gap-3">
@@ -100,10 +100,10 @@ export function StartScreen({ bestScore, onStart }: StartScreenProps) {
                 title="Lee el caso"
               />
               <Step
-                description="Elige entre cuatro puntos de la ISO 9001:2015."
+                description="Elige entre cuatro cláusulas, principios o conceptos de la ISO 9001:2015."
                 icon={<TargetIcon className="size-4" />}
                 number="02"
-                title="Marca la cláusula"
+                title="Marca la respuesta"
               />
               <Step
                 description="Descubre si acertaste, la respuesta correcta y la referencia exacta."
@@ -220,7 +220,7 @@ export function StartScreen({ bestScore, onStart }: StartScreenProps) {
               <LightbulbIcon className="mt-0.5 size-4 shrink-0 text-amber-500" />
               <p className="text-[11px] leading-5 text-muted">
                 Al comprobar cada respuesta verás si acertaste, la justificación y la
-                cláusula exacta de la norma.
+                referencia exacta de la norma.
               </p>
             </div>
           </div>
@@ -239,10 +239,10 @@ export function StartScreen({ bestScore, onStart }: StartScreenProps) {
             title="Lee el caso"
           />
           <Step
-            description="Elige entre cuatro puntos de la ISO 9001:2015."
+            description="Elige entre cuatro cláusulas, principios o conceptos de la ISO 9001:2015."
             icon={<TargetIcon className="size-4" />}
             number="02"
-            title="Marca la cláusula"
+            title="Marca la respuesta"
           />
           <Step
             description="Descubre si acertaste, la respuesta correcta y la referencia exacta."

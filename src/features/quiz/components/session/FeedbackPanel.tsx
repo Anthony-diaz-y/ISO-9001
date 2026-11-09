@@ -44,7 +44,7 @@ export function FeedbackPanel({
           </p>
           <p className="mt-0.5 text-sm leading-6 text-slate-600">
             {isCorrect
-              ? "Marcaste el punto correcto de la ISO 9001:2015."
+              ? "Marcaste la respuesta correcta."
               : "La respuesta correcta era:"}
           </p>
           {!isCorrect ? (

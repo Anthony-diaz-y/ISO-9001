@@ -111,35 +111,35 @@ export const BLOCK_A_QUESTIONS: Question[] = [
     "reference": "ISO 9001 cap. 0.3.2 (PHVA), cap. 9 y cap. 10.",
     "options": [
       {
-        "id": "riesgo",
-        "tag": "0.3.3",
-        "label": "Pensamiento basado en riesgos"
-      },
-      {
-        "id": "4.1",
-        "tag": "4.1",
-        "label": "Conocimiento de la organización y su contexto"
-      },
-      {
-        "id": "phva",
+        "id": "phva-ph",
         "tag": "0.3.2",
-        "label": "Ciclo PHVA"
+        "label": "Planificar y Hacer"
       },
       {
-        "id": "6.1",
-        "tag": "6.1",
-        "label": "Acciones para abordar riesgos y oportunidades"
+        "id": "phva-va",
+        "tag": "0.3.2",
+        "label": "Verificar y Actuar"
+      },
+      {
+        "id": "phva-h",
+        "tag": "0.3.2",
+        "label": "Solo Hacer"
+      },
+      {
+        "id": "phva-phv",
+        "tag": "0.3.2",
+        "label": "Planificar, Hacer y Verificar"
       }
     ],
-    "correctOptionId": "phva"
+    "correctOptionId": "phva-va"
   },
   {
     "id": 5,
     "block": "A",
     "title": "PANADERÍA INDUSTRIAL EN CALLAO (SIN ACCIÓN PREVENTIVA)",
     "situation": "El jefe de calidad afirma: 'Como la ISO 9001:2015 ya no tiene acción preventiva, nosotros dejamos de prevenir'. Eliminó el análisis de lo que podría fallar.",
-    "question": "¿Es correcta su interpretación?",
-    "answer": "No. El concepto de acción preventiva se expresa con el pensamiento basado en riesgos: la prevención se integra en la planificación (6.1), no desaparece.",
+    "question": "¿Qué concepto de la norma corrige esta interpretación?",
+    "answer": "El pensamiento basado en riesgos: la prevención se integra en la planificación (6.1) y no desaparece. La acción preventiva ya no se exige como apartado separado, pero el concepto sigue presente.",
     "simple": "Es quitar el botón 'prevenir' y pensar que el incendio ya no puede ocurrir.",
     "reference": "ISO 9001 cap. 0.3.3, 6.1 y Anexo A.4.",
     "options": [
@@ -151,7 +151,7 @@ export const BLOCK_A_QUESTIONS: Question[] = [
       {
         "id": "a1",
         "tag": "A.1",
-        "label": "Terminología nueva (sin representante ni manual obligatorio)"
+        "label": "Terminología nueva"
       },
       {
         "id": "riesgo",
@@ -171,8 +171,8 @@ export const BLOCK_A_QUESTIONS: Question[] = [
     "block": "A",
     "title": "EMPRESA CERTIFICADA DESDE 2008 EN TRUJILLO (RESABIOS DE LA VERSIÓN ANTIGUA)",
     "situation": "Tras migrar a la versión 2015, la empresa mantiene un 'representante de la dirección' y un manual de calidad porque cree que la norma los sigue exigiendo.",
-    "question": "¿La ISO 9001:2015 los exige?",
-    "answer": "No. Ya no exige un representante único ni un manual de la calidad. Sí exige asignar responsabilidades y autoridades (5.3) y decidir la información documentada necesaria.",
+    "question": "¿Qué aclaración de la versión 2015 aplica a este caso?",
+    "answer": "Que la versión 2015 ya no exige un representante único ni un manual de la calidad. Sí exige asignar responsabilidades y autoridades (5.3) y decidir la información documentada necesaria.",
     "simple": "Es seguir pagando el teléfono fijo porque 'antes lo pedían' y ahora nadie lo usa.",
     "reference": "Anexo A.1 (Tabla A.1) | 5.3 | 7.5.1.",
     "options": [
@@ -189,7 +189,7 @@ export const BLOCK_A_QUESTIONS: Question[] = [
       {
         "id": "a1",
         "tag": "A.1",
-        "label": "Terminología nueva (sin representante ni manual obligatorio)"
+        "label": "Sin representante de la dirección ni manual obligatorio"
       },
       {
         "id": "6.1",
@@ -204,7 +204,7 @@ export const BLOCK_A_QUESTIONS: Question[] = [
     "block": "A",
     "title": "CADENA DE HOTELES EN CUSCO (TEMPORADA ALTA)",
     "situation": "En julio y agosto llegan turistas internacionales y se contrata personal eventual. El análisis del contexto solo menciona 'competencia hotelera' y no incluye la estacionalidad, los paros ni la rotación.",
-    "question": "¿Qué requisito falla en la cláusula 4?",
+    "question": "¿Qué requisito de la cláusula 4 se incumple?",
     "answer": "Falta determinar las cuestiones externas e internas pertinentes que afectan el propósito y la capacidad de lograr los resultados previstos del SGC.",
     "simple": "Es planear un viaje mirando solo el destino y olvidando el clima y el estado del carro.",
     "reference": "Cláusula 4.1 (Conocimiento de la organización y de su contexto) y Anexo A.3.",
@@ -215,9 +215,9 @@ export const BLOCK_A_QUESTIONS: Question[] = [
         "label": "SGC y sus procesos"
       },
       {
-        "id": "8.1",
-        "tag": "8.1",
-        "label": "Planificación y control operacional"
+        "id": "4.2",
+        "tag": "4.2",
+        "label": "Partes interesadas pertinentes"
       },
       {
         "id": "4.1",
@@ -225,9 +225,9 @@ export const BLOCK_A_QUESTIONS: Question[] = [
         "label": "Conocimiento de la organización y su contexto"
       },
       {
-        "id": "4.2",
-        "tag": "4.2",
-        "label": "Partes interesadas pertinentes"
+        "id": "4.3",
+        "tag": "4.3",
+        "label": "Alcance del SGC"
       }
     ],
     "correctOptionId": "4.1"
@@ -237,15 +237,15 @@ export const BLOCK_A_QUESTIONS: Question[] = [
     "block": "A",
     "title": "CLÍNICA PRIVADA EN SAN ISIDRO (QUIÉN MÁS IMPORTA)",
     "situation": "La clínica lista a pacientes y accionistas como partes interesadas, pero omite a las aseguradoras, a la autoridad sanitaria y a las empresas de tercerización de limpieza. Nadie revisa la lista.",
-    "question": "¿Qué debe hacer la organización según 4.2?",
+    "question": "¿Qué debe hacer la organización con las partes interesadas?",
     "answer": "Determinar las partes interesadas pertinentes al SGC y sus requisitos pertinentes, y realizar el seguimiento y la revisión de esa información.",
     "simple": "Es hacer una fiesta e invitar solo a los amigos que no se quejan.",
     "reference": "Cláusula 4.2 (Comprensión de las necesidades y expectativas de las partes interesadas).",
     "options": [
       {
-        "id": "4.4",
-        "tag": "4.4",
-        "label": "SGC y sus procesos"
+        "id": "4.1",
+        "tag": "4.1",
+        "label": "Conocimiento de la organización y su contexto"
       },
       {
         "id": "4.2",
@@ -253,14 +253,14 @@ export const BLOCK_A_QUESTIONS: Question[] = [
         "label": "Partes interesadas pertinentes"
       },
       {
-        "id": "5.2.2",
-        "tag": "5.2.2",
-        "label": "Política de la calidad: comunicación"
+        "id": "4.3",
+        "tag": "4.3",
+        "label": "Alcance del SGC"
       },
       {
-        "id": "5.3",
-        "tag": "5.3",
-        "label": "Roles, responsabilidades y autoridades"
+        "id": "4.4",
+        "tag": "4.4",
+        "label": "SGC y sus procesos"
       }
     ],
     "correctOptionId": "4.2"
@@ -270,15 +270,20 @@ export const BLOCK_A_QUESTIONS: Question[] = [
     "block": "A",
     "title": "LABORATORIO DE ENSAYOS EN LA MOLINA (EXCLUSIÓN INDEBIDA)",
     "situation": "El laboratorio declara 'no aplica 8.3 Diseño y desarrollo', pero cada año desarrolla métodos de ensayo nuevos para sus clientes. Lo omitió para 'ahorrar documentos'.",
-    "question": "¿Puede declarar que 8.3 no es aplicable?",
-    "answer": "No. Solo se declara no aplicable un requisito si no afecta la conformidad de productos y servicios ni la satisfacción del cliente. Debe justificarse en el alcance.",
+    "question": "¿Qué requisito regula que 8.3 se declare no aplicable?",
+    "answer": "El alcance del SGC (4.3). Solo se declara no aplicable un requisito si no afecta la conformidad de productos y servicios ni la satisfacción del cliente, y debe justificarse en el alcance.",
     "simple": "Es decir 'yo no manejo' porque no quiero sacar el brevete, pero igual manejar a diario.",
     "reference": "Cláusula 4.3 (Alcance del SGC) y Anexo A.5.",
     "options": [
       {
-        "id": "6.1",
-        "tag": "6.1",
-        "label": "Acciones para abordar riesgos y oportunidades"
+        "id": "4.1",
+        "tag": "4.1",
+        "label": "Conocimiento de la organización y su contexto"
+      },
+      {
+        "id": "4.2",
+        "tag": "4.2",
+        "label": "Partes interesadas pertinentes"
       },
       {
         "id": "4.3",
@@ -286,14 +291,9 @@ export const BLOCK_A_QUESTIONS: Question[] = [
         "label": "Alcance del SGC"
       },
       {
-        "id": "8.1",
-        "tag": "8.1",
-        "label": "Planificación y control operacional"
-      },
-      {
-        "id": "4.2",
-        "tag": "4.2",
-        "label": "Partes interesadas pertinentes"
+        "id": "4.4",
+        "tag": "4.4",
+        "label": "SGC y sus procesos"
       }
     ],
     "correctOptionId": "4.3"
@@ -303,15 +303,15 @@ export const BLOCK_A_QUESTIONS: Question[] = [
     "block": "A",
     "title": "ALMACÉN LOGÍSTICO EN LURÍN (PROCESOS QUE NO SE HABLAN)",
     "situation": "Hay un mapa de procesos bonito en la pared, pero Compras, Almacén y Despacho no conocen sus entradas y salidas, no tienen indicadores y nadie es dueño de cada proceso.",
-    "question": "¿Qué incumple el enfoque a procesos de 4.4?",
+    "question": "¿Qué requisito del SGC se incumple?",
     "answer": "No determinó entradas y salidas, secuencia, criterios e indicadores, recursos ni responsables de cada proceso, ni los evalúa para mejorarlos.",
     "simple": "Es tener un mapa de la ciudad sin saber quién maneja cada ruta.",
     "reference": "Cláusula 4.4.1 (incisos a al h) y 4.4.2.",
     "options": [
       {
-        "id": "5.1.1",
-        "tag": "5.1.1",
-        "label": "Liderazgo y compromiso"
+        "id": "4.3",
+        "tag": "4.3",
+        "label": "Alcance del SGC"
       },
       {
         "id": "4.4",
@@ -319,9 +319,9 @@ export const BLOCK_A_QUESTIONS: Question[] = [
         "label": "SGC y sus procesos"
       },
       {
-        "id": "4.3",
-        "tag": "4.3",
-        "label": "Alcance del SGC"
+        "id": "5.1.1",
+        "tag": "5.1.1",
+        "label": "Liderazgo y compromiso"
       },
       {
         "id": "6.1",
@@ -336,33 +336,33 @@ export const BLOCK_A_QUESTIONS: Question[] = [
     "block": "A",
     "title": "PLANTA DE EMBUTIDOS EN CHICLAYO (PAPELES QUE NO SIRVEN)",
     "situation": "La empresa redactó 60 procedimientos por si acaso. Los operarios no los usan, y para el proceso de congelado crítico no hay ninguna instrucción escrita ni registro.",
-    "question": "¿Cuál es el criterio de la norma para documentar procesos?",
+    "question": "¿Qué criterio de la norma se incumple al documentar de más y de menos?",
     "answer": "Mantener la información documentada necesaria para apoyar la operación y conservar la necesaria para confiar en que se realizan según lo planificado.",
     "simple": "Es empacar la maleta con todo el ropero y olvidar el pasaporte.",
     "reference": "Cláusula 4.4.2 y 7.5.1 | Anexo A.6.",
     "options": [
-      {
-        "id": "4.2",
-        "tag": "4.2",
-        "label": "Partes interesadas pertinentes"
-      },
       {
         "id": "4.4",
         "tag": "4.4",
         "label": "SGC y sus procesos"
       },
       {
-        "id": "5.2.2",
-        "tag": "5.2.2",
-        "label": "Política de la calidad: comunicación"
+        "id": "7.5.1",
+        "tag": "7.5.1",
+        "label": "Información documentada: generalidades"
       },
       {
-        "id": "5.2.1",
-        "tag": "5.2.1",
-        "label": "Política de la calidad: contenido"
+        "id": "7.5.3",
+        "tag": "7.5.3",
+        "label": "Control de la información documentada"
+      },
+      {
+        "id": "8.5.1",
+        "tag": "8.5.1",
+        "label": "Producción y prestación del servicio"
       }
     ],
-    "correctOptionId": "4.4"
+    "correctOptionId": "7.5.1"
   },
   {
     "id": 12,
@@ -375,9 +375,9 @@ export const BLOCK_A_QUESTIONS: Question[] = [
     "reference": "Cláusula 4.1 (segundo párrafo) y 9.3.2 b).",
     "options": [
       {
-        "id": "4.4",
-        "tag": "4.4",
-        "label": "SGC y sus procesos"
+        "id": "4.1",
+        "tag": "4.1",
+        "label": "Conocimiento de la organización y su contexto"
       },
       {
         "id": "4.2",
@@ -385,14 +385,14 @@ export const BLOCK_A_QUESTIONS: Question[] = [
         "label": "Partes interesadas pertinentes"
       },
       {
-        "id": "5.1.1",
-        "tag": "5.1.1",
-        "label": "Liderazgo y compromiso"
+        "id": "4.3",
+        "tag": "4.3",
+        "label": "Alcance del SGC"
       },
       {
-        "id": "4.1",
-        "tag": "4.1",
-        "label": "Conocimiento de la organización y su contexto"
+        "id": "9.3",
+        "tag": "9.3",
+        "label": "Revisión por la dirección"
       }
     ],
     "correctOptionId": "4.1"
@@ -408,14 +408,14 @@ export const BLOCK_A_QUESTIONS: Question[] = [
     "reference": "Cláusula 5.1.1 (incisos a, c, e, i).",
     "options": [
       {
-        "id": "4.1",
-        "tag": "4.1",
-        "label": "Conocimiento de la organización y su contexto"
+        "id": "5.1.1",
+        "tag": "5.1.1",
+        "label": "Liderazgo y compromiso"
       },
       {
-        "id": "8.1",
-        "tag": "8.1",
-        "label": "Planificación y control operacional"
+        "id": "5.1.2",
+        "tag": "5.1.2",
+        "label": "Enfoque al cliente"
       },
       {
         "id": "5.2.1",
@@ -423,9 +423,9 @@ export const BLOCK_A_QUESTIONS: Question[] = [
         "label": "Política de la calidad: contenido"
       },
       {
-        "id": "5.1.1",
-        "tag": "5.1.1",
-        "label": "Liderazgo y compromiso"
+        "id": "5.3",
+        "tag": "5.3",
+        "label": "Roles, responsabilidades y autoridades"
       }
     ],
     "correctOptionId": "5.1.1"
@@ -446,11 +446,6 @@ export const BLOCK_A_QUESTIONS: Question[] = [
         "label": "Liderazgo y compromiso"
       },
       {
-        "id": "8.1",
-        "tag": "8.1",
-        "label": "Planificación y control operacional"
-      },
-      {
         "id": "5.1.2",
         "tag": "5.1.2",
         "label": "Enfoque al cliente"
@@ -459,6 +454,11 @@ export const BLOCK_A_QUESTIONS: Question[] = [
         "id": "5.2.1",
         "tag": "5.2.1",
         "label": "Política de la calidad: contenido"
+      },
+      {
+        "id": "5.3",
+        "tag": "5.3",
+        "label": "Roles, responsabilidades y autoridades"
       }
     ],
     "correctOptionId": "5.1.2"
@@ -474,9 +474,9 @@ export const BLOCK_A_QUESTIONS: Question[] = [
     "reference": "Cláusula 5.2.1 (incisos a al d).",
     "options": [
       {
-        "id": "6.1",
-        "tag": "6.1",
-        "label": "Acciones para abordar riesgos y oportunidades"
+        "id": "5.1.1",
+        "tag": "5.1.1",
+        "label": "Liderazgo y compromiso"
       },
       {
         "id": "5.2.1",
@@ -484,9 +484,9 @@ export const BLOCK_A_QUESTIONS: Question[] = [
         "label": "Política de la calidad: contenido"
       },
       {
-        "id": "4.2",
-        "tag": "4.2",
-        "label": "Partes interesadas pertinentes"
+        "id": "5.2.2",
+        "tag": "5.2.2",
+        "label": "Política de la calidad: comunicación"
       },
       {
         "id": "5.3",
@@ -507,9 +507,9 @@ export const BLOCK_A_QUESTIONS: Question[] = [
     "reference": "Cláusula 5.2.2 y 7.3 a).",
     "options": [
       {
-        "id": "8.1",
-        "tag": "8.1",
-        "label": "Planificación y control operacional"
+        "id": "5.2.1",
+        "tag": "5.2.1",
+        "label": "Política de la calidad: contenido"
       },
       {
         "id": "5.2.2",
@@ -517,14 +517,14 @@ export const BLOCK_A_QUESTIONS: Question[] = [
         "label": "Política de la calidad: comunicación"
       },
       {
-        "id": "4.2",
-        "tag": "4.2",
-        "label": "Partes interesadas pertinentes"
+        "id": "7.3",
+        "tag": "7.3",
+        "label": "Toma de conciencia"
       },
       {
-        "id": "5.2.1",
-        "tag": "5.2.1",
-        "label": "Política de la calidad: contenido"
+        "id": "7.5.1",
+        "tag": "7.5.1",
+        "label": "Información documentada: generalidades"
       }
     ],
     "correctOptionId": "5.2.2"
@@ -534,30 +534,30 @@ export const BLOCK_A_QUESTIONS: Question[] = [
     "block": "A",
     "title": "EMPRESA DE SOFTWARE EN MIRAFLORES (NADIE ES DUEÑO)",
     "situation": "Hay un organigrama, pero nadie tiene asignada la responsabilidad de informar a la alta dirección sobre el desempeño del SGC. Los reportes llegan 'cuando alguien se acuerda'.",
-    "question": "¿Qué exige 5.3 a la alta dirección?",
+    "question": "¿Qué debe asegurar la alta dirección sobre los roles y responsabilidades?",
     "answer": "Asignar, comunicar y asegurar que se entienden las responsabilidades y autoridades, incluyendo informar sobre el desempeño del SGC y las oportunidades de mejora.",
     "simple": "Es una obra donde nadie sabe quién avisa al dueño cuando hay una grieta.",
     "reference": "Cláusula 5.3 (incisos a al e).",
     "options": [
       {
-        "id": "5.1.2",
-        "tag": "5.1.2",
-        "label": "Enfoque al cliente"
+        "id": "5.1.1",
+        "tag": "5.1.1",
+        "label": "Liderazgo y compromiso"
       },
       {
-        "id": "4.3",
-        "tag": "4.3",
-        "label": "Alcance del SGC"
-      },
-      {
-        "id": "5.2.1",
-        "tag": "5.2.1",
-        "label": "Política de la calidad: contenido"
+        "id": "5.2.2",
+        "tag": "5.2.2",
+        "label": "Política de la calidad: comunicación"
       },
       {
         "id": "5.3",
         "tag": "5.3",
         "label": "Roles, responsabilidades y autoridades"
+      },
+      {
+        "id": "7.3",
+        "tag": "7.3",
+        "label": "Toma de conciencia"
       }
     ],
     "correctOptionId": "5.3"
@@ -573,24 +573,24 @@ export const BLOCK_A_QUESTIONS: Question[] = [
     "reference": "Cláusula 5.3 e) y 6.3 d).",
     "options": [
       {
-        "id": "5.2.2",
-        "tag": "5.2.2",
-        "label": "Política de la calidad: comunicación"
-      },
-      {
         "id": "5.3",
         "tag": "5.3",
         "label": "Roles, responsabilidades y autoridades"
       },
       {
-        "id": "5.2.1",
-        "tag": "5.2.1",
-        "label": "Política de la calidad: contenido"
+        "id": "6.3",
+        "tag": "6.3",
+        "label": "Planificación de cambios"
       },
       {
-        "id": "4.2",
-        "tag": "4.2",
-        "label": "Partes interesadas pertinentes"
+        "id": "4.4",
+        "tag": "4.4",
+        "label": "SGC y sus procesos"
+      },
+      {
+        "id": "7.5.1",
+        "tag": "7.5.1",
+        "label": "Información documentada: generalidades"
       }
     ],
     "correctOptionId": "5.3"
@@ -606,24 +606,24 @@ export const BLOCK_A_QUESTIONS: Question[] = [
     "reference": "Cláusula 6.1.1 y 6.1.2 | Anexo A.4.",
     "options": [
       {
+        "id": "6.1",
+        "tag": "6.1",
+        "label": "Acciones para abordar riesgos y oportunidades"
+      },
+      {
+        "id": "6.2",
+        "tag": "6.2",
+        "label": "Objetivos de la calidad y su planificación"
+      },
+      {
         "id": "6.3",
         "tag": "6.3",
         "label": "Planificación de cambios"
       },
       {
-        "id": "phva",
-        "tag": "0.3.2",
-        "label": "Ciclo PHVA"
-      },
-      {
-        "id": "9.1.3",
-        "tag": "9.1.3",
-        "label": "Análisis y evaluación"
-      },
-      {
-        "id": "6.1",
-        "tag": "6.1",
-        "label": "Acciones para abordar riesgos y oportunidades"
+        "id": "8.4",
+        "tag": "8.4",
+        "label": "Control de procesos suministrados externamente"
       }
     ],
     "correctOptionId": "6.1"
@@ -633,7 +633,7 @@ export const BLOCK_A_QUESTIONS: Question[] = [
     "block": "A",
     "title": "CLÍNICA DENTAL EN JESÚS MARÍA (RIESGO SIN PROPORCIÓN)",
     "situation": "Para revisar el riesgo de que falte papel para recetas, la clínica usa una matriz de 30 hojas con comité semanal. En cambio, el riesgo de esterilización fallida solo tiene una línea.",
-    "question": "¿Qué principio de 6.1.2 se está ignorando?",
+    "question": "¿Qué requisito de 6.1.2 se está aplicando de forma desproporcionada?",
     "answer": "Las acciones para abordar riesgos deben ser proporcionales al impacto potencial en la conformidad de los productos y servicios.",
     "simple": "Es poner siete candados a la despensa y dejar la puerta de calle abierta.",
     "reference": "Cláusula 6.1.2 (último párrafo).",
@@ -644,14 +644,14 @@ export const BLOCK_A_QUESTIONS: Question[] = [
         "label": "Conocimiento de la organización y su contexto"
       },
       {
+        "id": "6.1.2",
+        "tag": "6.1.2",
+        "label": "Proporcionalidad de las acciones frente al riesgo"
+      },
+      {
         "id": "6.2",
         "tag": "6.2",
         "label": "Objetivos de la calidad y su planificación"
-      },
-      {
-        "id": "6.1",
-        "tag": "6.1",
-        "label": "Acciones para abordar riesgos y oportunidades"
       },
       {
         "id": "8.1",
@@ -659,7 +659,7 @@ export const BLOCK_A_QUESTIONS: Question[] = [
         "label": "Planificación y control operacional"
       }
     ],
-    "correctOptionId": "6.1"
+    "correctOptionId": "6.1.2"
   },
   {
     "id": 21,
@@ -672,6 +672,11 @@ export const BLOCK_A_QUESTIONS: Question[] = [
     "reference": "Cláusula 6.1.2 b) incisos 1 y 2.",
     "options": [
       {
+        "id": "6.1.2",
+        "tag": "6.1.2",
+        "label": "Evaluar la eficacia e integrar las acciones"
+      },
+      {
         "id": "6.2",
         "tag": "6.2",
         "label": "Objetivos de la calidad y su planificación"
@@ -682,17 +687,12 @@ export const BLOCK_A_QUESTIONS: Question[] = [
         "label": "Planificación de cambios"
       },
       {
-        "id": "6.1",
-        "tag": "6.1",
-        "label": "Acciones para abordar riesgos y oportunidades"
-      },
-      {
         "id": "8.1",
         "tag": "8.1",
         "label": "Planificación y control operacional"
       }
     ],
-    "correctOptionId": "6.1"
+    "correctOptionId": "6.1.2"
   },
   {
     "id": 22,
@@ -710,14 +710,14 @@ export const BLOCK_A_QUESTIONS: Question[] = [
         "label": "Acciones para abordar riesgos y oportunidades"
       },
       {
-        "id": "6.2",
-        "tag": "6.2",
-        "label": "Objetivos de la calidad y su planificación"
+        "id": "6.2.1",
+        "tag": "6.2.1",
+        "label": "Objetivos medibles, coherentes y con seguimiento"
       },
       {
-        "id": "8.1",
-        "tag": "8.1",
-        "label": "Planificación y control operacional"
+        "id": "6.2.2",
+        "tag": "6.2.2",
+        "label": "Planificación para lograr los objetivos"
       },
       {
         "id": "9.1.3",
@@ -725,7 +725,7 @@ export const BLOCK_A_QUESTIONS: Question[] = [
         "label": "Análisis y evaluación"
       }
     ],
-    "correctOptionId": "6.2"
+    "correctOptionId": "6.2.1"
   },
   {
     "id": 23,
@@ -738,57 +738,57 @@ export const BLOCK_A_QUESTIONS: Question[] = [
     "reference": "Cláusula 6.2.2 (incisos a al e).",
     "options": [
       {
-        "id": "6.2",
-        "tag": "6.2",
-        "label": "Objetivos de la calidad y su planificación"
-      },
-      {
         "id": "6.1",
         "tag": "6.1",
         "label": "Acciones para abordar riesgos y oportunidades"
       },
       {
+        "id": "6.2.1",
+        "tag": "6.2.1",
+        "label": "Objetivos de la calidad y su planificación"
+      },
+      {
+        "id": "6.2.2",
+        "tag": "6.2.2",
+        "label": "Qué, recursos, responsable, plazo y evaluación"
+      },
+      {
         "id": "6.3",
         "tag": "6.3",
         "label": "Planificación de cambios"
-      },
-      {
-        "id": "9.1.3",
-        "tag": "9.1.3",
-        "label": "Análisis y evaluación"
       }
     ],
-    "correctOptionId": "6.2"
+    "correctOptionId": "6.2.2"
   },
   {
     "id": 24,
     "block": "A",
     "title": "EMPRESA DE SERVICIOS EN SURCO (MIGRACIÓN A ERP SIN PLAN)",
     "situation": "El lunes la empresa cambió su sistema de pedidos a un ERP nuevo. No se revisaron las consecuencias ni se reasignaron responsables. Durante una semana se perdieron 40 pedidos.",
-    "question": "¿Qué falló según 6.3 Planificación de los cambios?",
+    "question": "¿Qué requisito de planificación del cambio se incumplió?",
     "answer": "Los cambios al SGC deben planificarse: considerar el propósito y consecuencias, la integridad del sistema, los recursos disponibles y la reasignación de responsabilidades.",
     "simple": "Es mudarse de casa sin hacer lista de lo que se llevará ni quién cargará qué.",
     "reference": "Cláusula 6.3 (incisos a al d).",
     "options": [
+      {
+        "id": "6.1",
+        "tag": "6.1",
+        "label": "Acciones para abordar riesgos y oportunidades"
+      },
+      {
+        "id": "6.2",
+        "tag": "6.2",
+        "label": "Objetivos de la calidad y su planificación"
+      },
       {
         "id": "6.3",
         "tag": "6.3",
         "label": "Planificación de cambios"
       },
       {
-        "id": "riesgo",
-        "tag": "0.3.3",
-        "label": "Pensamiento basado en riesgos"
-      },
-      {
-        "id": "4.1",
-        "tag": "4.1",
-        "label": "Conocimiento de la organización y su contexto"
-      },
-      {
-        "id": "6.1",
-        "tag": "6.1",
-        "label": "Acciones para abordar riesgos y oportunidades"
+        "id": "8.1",
+        "tag": "8.1",
+        "label": "Planificación y control operacional"
       }
     ],
     "correctOptionId": "6.3"
@@ -798,20 +798,20 @@ export const BLOCK_A_QUESTIONS: Question[] = [
     "block": "A",
     "title": "STARTUP DE ENTREGAS EN LIMA (OPORTUNIDAD IGNORADA)",
     "situation": "La startup solo analiza amenazas. Ignoró el crecimiento del comercio electrónico en provincias, que permitiría abrir nuevos mercados con su misma plataforma.",
-    "question": "¿Qué omite la cláusula 6.1 respecto a las oportunidades?",
+    "question": "¿Qué omite la organización al analizar solo amenazas?",
     "answer": "Determinar y abordar también las oportunidades (nuevos mercados, clientes, tecnologías) para aumentar efectos deseables y lograr la mejora.",
     "simple": "Es mirar solo si llueve y nunca si salió el sol para tender la ropa.",
     "reference": "Cláusula 6.1.1 b) y d) | 6.1.2 Nota 2 | cap. 0.3.3.",
     "options": [
       {
-        "id": "8.1",
-        "tag": "8.1",
-        "label": "Planificación y control operacional"
-      },
-      {
         "id": "6.1",
         "tag": "6.1",
         "label": "Acciones para abordar riesgos y oportunidades"
+      },
+      {
+        "id": "8.1",
+        "tag": "8.1",
+        "label": "Planificación y control operacional"
       },
       {
         "id": "4.1",
@@ -837,14 +837,14 @@ export const BLOCK_A_QUESTIONS: Question[] = [
     "reference": "Cláusula 4.3 (párrafos finales).",
     "options": [
       {
-        "id": "5.1.2",
-        "tag": "5.1.2",
-        "label": "Enfoque al cliente"
+        "id": "4.1",
+        "tag": "4.1",
+        "label": "Conocimiento de la organización y su contexto"
       },
       {
-        "id": "5.2.2",
-        "tag": "5.2.2",
-        "label": "Política de la calidad: comunicación"
+        "id": "4.2",
+        "tag": "4.2",
+        "label": "Partes interesadas pertinentes"
       },
       {
         "id": "4.3",
@@ -852,9 +852,9 @@ export const BLOCK_A_QUESTIONS: Question[] = [
         "label": "Alcance del SGC"
       },
       {
-        "id": "5.2.1",
-        "tag": "5.2.1",
-        "label": "Política de la calidad: contenido"
+        "id": "4.4",
+        "tag": "4.4",
+        "label": "SGC y sus procesos"
       }
     ],
     "correctOptionId": "4.3"

@@ -7,7 +7,7 @@ export const BLOCK_D_QUESTIONS: Question[] = [
     "title": "AUDITOR EXTERNO EN LIMA (REGALO Y CHISMES)",
     "situation": "Un auditor acepta una cena de la gerencia que audita y luego comenta en otra empresa, con nombres, las fallas de procesos que vio en la primera. Sus hallazgos suavizan lo grave.",
     "question": "¿Qué principios de auditoría ha violado?",
-    "answer": "Integridad (base de la profesionalidad) y confidencialidad (seguridad de la información), y también compromete su independencia e imparcialidad.",
+    "answer": "Integridad (acepta la cena), confidencialidad (revela información con nombres) y presentación imparcial (suaviza lo grave); además compromete su independencia.",
     "simple": "Es un árbitro que acepta invitaciones de un equipo y cuenta los secretos de sus rivales.",
     "reference": "ISO 19011:2018 cap. 4 (principios de auditoría).",
     "options": [
@@ -24,12 +24,12 @@ export const BLOCK_D_QUESTIONS: Question[] = [
       {
         "id": "aud-integridad",
         "tag": "ISO 19011",
-        "label": "Integridad y confidencialidad"
+        "label": "Integridad, confidencialidad, independencia y presentación imparcial"
       },
       {
-        "id": "aud-imparcial",
+        "id": "aud-competencia",
         "tag": "ISO 19011",
-        "label": "Presentación imparcial"
+        "label": "Competencia del auditor"
       }
     ],
     "correctOptionId": "aud-integridad"
@@ -45,19 +45,19 @@ export const BLOCK_D_QUESTIONS: Question[] = [
     "reference": "ISO 19011:2018 cap. 4 f) y cap. 3 (evidencia y hallazgos).",
     "options": [
       {
-        "id": "aud-programa",
-        "tag": "ISO 19011",
-        "label": "Programa de auditoría y riesgos"
-      },
-      {
         "id": "aud-integridad",
         "tag": "ISO 19011",
         "label": "Integridad y confidencialidad"
       },
       {
-        "id": "9.2",
-        "tag": "9.2",
-        "label": "Auditoría interna"
+        "id": "aud-competencia",
+        "tag": "ISO 19011",
+        "label": "Competencia del auditor"
+      },
+      {
+        "id": "aud-programa",
+        "tag": "ISO 19011",
+        "label": "Programa de auditoría y riesgos"
       },
       {
         "id": "aud-evidencia",
@@ -111,24 +111,24 @@ export const BLOCK_D_QUESTIONS: Question[] = [
     "reference": "ISO 9000:2015 y ISO 19011:2018 cap. 3 y 5.",
     "options": [
       {
-        "id": "aud-integridad",
-        "tag": "ISO 19011",
-        "label": "Integridad y confidencialidad"
-      },
-      {
         "id": "aud-tipos",
         "tag": "ISO 19011",
-        "label": "Tipos de auditoría (1.ª, 2.ª y 3.ª parte)"
+        "label": "A: 1.ª parte; B: 2.ª parte; C: 3.ª parte"
       },
       {
-        "id": "aud-programa",
+        "id": "aud-tipos-2",
         "tag": "ISO 19011",
-        "label": "Programa de auditoría y riesgos"
+        "label": "A: 3.ª parte; B: 1.ª parte; C: 2.ª parte"
       },
       {
-        "id": "aud-competencia",
+        "id": "aud-tipos-3",
         "tag": "ISO 19011",
-        "label": "Competencia del auditor"
+        "label": "A: 2.ª parte; B: 3.ª parte; C: 1.ª parte"
+      },
+      {
+        "id": "aud-tipos-4",
+        "tag": "ISO 19011",
+        "label": "Las tres son auditorías de tercera parte"
       }
     ],
     "correctOptionId": "aud-tipos"
@@ -144,24 +144,24 @@ export const BLOCK_D_QUESTIONS: Question[] = [
     "reference": "ISO 19011:2018 cap. 3 (términos y definiciones).",
     "options": [
       {
-        "id": "aud-integridad",
-        "tag": "ISO 19011",
-        "label": "Integridad y confidencialidad"
-      },
-      {
-        "id": "aud-evidencia",
-        "tag": "ISO 19011",
-        "label": "Enfoque basado en la evidencia"
-      },
-      {
-        "id": "aud-competencia",
-        "tag": "ISO 19011",
-        "label": "Competencia del auditor"
-      },
-      {
         "id": "aud-hallazgos",
         "tag": "ISO 19011",
-        "label": "Criterios, evidencia y hallazgos"
+        "label": "Criterio = requisito de referencia; evidencia = información verificable; hallazgo = resultado de evaluar la evidencia"
+      },
+      {
+        "id": "aud-hallazgos-2",
+        "tag": "ISO 19011",
+        "label": "Criterio = información verificable; evidencia = conclusión; hallazgo = requisito"
+      },
+      {
+        "id": "aud-hallazgos-3",
+        "tag": "ISO 19011",
+        "label": "Criterio = conclusión; evidencia = hallazgo; hallazgo = evidencia"
+      },
+      {
+        "id": "aud-hallazgos-4",
+        "tag": "ISO 19011",
+        "label": "Criterio = opinión del auditor; evidencia = requisito; hallazgo = conclusión final"
       }
     ],
     "correctOptionId": "aud-hallazgos"
@@ -182,19 +182,19 @@ export const BLOCK_D_QUESTIONS: Question[] = [
         "label": "Criterios, evidencia y hallazgos"
       },
       {
+        "id": "aud-competencia",
+        "tag": "ISO 19011",
+        "label": "Competencia del auditor"
+      },
+      {
+        "id": "aud-programa",
+        "tag": "ISO 19011",
+        "label": "Programa de auditoría y riesgos"
+      },
+      {
         "id": "aud-etapas",
         "tag": "ISO 19011",
         "label": "Etapas y reuniones de auditoría"
-      },
-      {
-        "id": "aud-evidencia",
-        "tag": "ISO 19011",
-        "label": "Enfoque basado en la evidencia"
-      },
-      {
-        "id": "9.2",
-        "tag": "9.2",
-        "label": "Auditoría interna"
       }
     ],
     "correctOptionId": "aud-etapas"
@@ -276,24 +276,24 @@ export const BLOCK_D_QUESTIONS: Question[] = [
     "reference": "ISO 9000:2015 cap. 3 (términos y definiciones).",
     "options": [
       {
-        "id": "9000-eficacia",
-        "tag": "ISO 9000",
-        "label": "Eficacia y eficiencia"
-      },
-      {
-        "id": "9000-proceso",
-        "tag": "ISO 9000",
-        "label": "Proceso (entradas y salidas)"
-      },
-      {
         "id": "9000-calidad",
         "tag": "ISO 9000",
-        "label": "Calidad"
+        "label": "Grado en que las características inherentes cumplen los requisitos"
+      },
+      {
+        "id": "9000-eficacia",
+        "tag": "ISO 9000",
+        "label": "Relación entre resultados logrados y recursos utilizados"
       },
       {
         "id": "9000-nc",
         "tag": "ISO 9000",
-        "label": "No conformidad y defecto"
+        "label": "Incumplimiento de un requisito"
+      },
+      {
+        "id": "9000-riesgo",
+        "tag": "ISO 9000",
+        "label": "Efecto de la incertidumbre sobre los objetivos"
       }
     ],
     "correctOptionId": "9000-calidad"
@@ -309,24 +309,24 @@ export const BLOCK_D_QUESTIONS: Question[] = [
     "reference": "ISO 9000:2015 cap. 3 (términos y definiciones).",
     "options": [
       {
-        "id": "9000-nc",
-        "tag": "ISO 9000",
-        "label": "No conformidad y defecto"
-      },
-      {
-        "id": "9000-proceso",
-        "tag": "ISO 9000",
-        "label": "Proceso (entradas y salidas)"
-      },
-      {
         "id": "9000-eficacia",
         "tag": "ISO 9000",
-        "label": "Eficacia y eficiencia"
+        "label": "Fue eficaz, pero no eficiente: logró la meta con demasiados recursos"
       },
       {
-        "id": "9000-calidad",
+        "id": "9000-eficacia-2",
         "tag": "ISO 9000",
-        "label": "Calidad"
+        "label": "Fue eficiente, pero no eficaz: gastó poco y no llegó a la meta"
+      },
+      {
+        "id": "9000-eficacia-3",
+        "tag": "ISO 9000",
+        "label": "Eficacia y eficiencia son sinónimos"
+      },
+      {
+        "id": "9000-eficacia-4",
+        "tag": "ISO 9000",
+        "label": "Fue eficaz y eficiente: cumplió la meta y cuidó los recursos"
       }
     ],
     "correctOptionId": "9000-eficacia"
@@ -337,29 +337,29 @@ export const BLOCK_D_QUESTIONS: Question[] = [
     "title": "RESTAURANTE EN MIRAFLORES (LO QUE NO SE DICE)",
     "situation": "Un cliente pide un menú ejecutivo y recibe un plato en mal estado. El dueño dice: 'No lo pidió por escrito, no estaba en el contrato'. El cliente reclama de todos modos.",
     "question": "¿Qué tipo de requisito se ignoró?",
-    "answer": "Un requisito implícito: necesidad o expectativa habitual, que no se declara por ser obvia (alimento sano). La organización debe considerar también los requisitos no declarados.",
+    "answer": "Un requisito no declarado (implícito): necesidad o expectativa habitual que no se declara por ser obvia (alimento sano). La organización debe considerar también los requisitos no declarados.",
     "simple": "Nadie pide que el agua sea potable; se da por hecho.",
     "reference": "ISO 9000:2015 cap. 3 (términos y definiciones) | ISO 9001 cl. 8.2.3.1 b).",
     "options": [
       {
-        "id": "9000-nc",
-        "tag": "ISO 9000",
-        "label": "No conformidad y defecto"
-      },
-      {
-        "id": "9000-riesgo",
-        "tag": "ISO 9000",
-        "label": "Riesgo (efecto de la incertidumbre)"
-      },
-      {
-        "id": "9000-calidad",
-        "tag": "ISO 9000",
-        "label": "Calidad"
-      },
-      {
         "id": "9000-requisito",
-        "tag": "ISO 9000",
-        "label": "Requisito implícito"
+        "tag": "8.2.3.1 b)",
+        "label": "Requisito no declarado (implícito)"
+      },
+      {
+        "id": "9000-requisito-2",
+        "tag": "8.2.2",
+        "label": "Requisito legal"
+      },
+      {
+        "id": "9000-requisito-3",
+        "tag": "8.2.3.1 a)",
+        "label": "Requisito declarado por escrito"
+      },
+      {
+        "id": "9000-requisito-4",
+        "tag": "8.2.3.1 c)",
+        "label": "Requisito de la organización"
       }
     ],
     "correctOptionId": "9000-requisito"
@@ -375,24 +375,24 @@ export const BLOCK_D_QUESTIONS: Question[] = [
     "reference": "ISO 9001 cap. 0.3.3 | ISO 9000:2015 cap. 3 (términos y definiciones).",
     "options": [
       {
-        "id": "9000-calidad",
-        "tag": "ISO 9000",
-        "label": "Calidad"
-      },
-      {
-        "id": "9000-nc",
-        "tag": "ISO 9000",
-        "label": "No conformidad y defecto"
-      },
-      {
-        "id": "9000-proceso",
-        "tag": "ISO 9000",
-        "label": "Proceso (entradas y salidas)"
-      },
-      {
         "id": "9000-riesgo",
         "tag": "ISO 9000",
-        "label": "Riesgo (efecto de la incertidumbre)"
+        "label": "Efecto de la incertidumbre, que puede ser positivo o negativo"
+      },
+      {
+        "id": "9000-riesgo-2",
+        "tag": "ISO 9000",
+        "label": "Incumplimiento de un requisito"
+      },
+      {
+        "id": "9000-riesgo-3",
+        "tag": "ISO 9000",
+        "label": "Grado en que se cumplen los requisitos"
+      },
+      {
+        "id": "9000-riesgo-4",
+        "tag": "ISO 9000",
+        "label": "Conjunto de actividades interrelacionadas"
       }
     ],
     "correctOptionId": "9000-riesgo"
@@ -408,24 +408,24 @@ export const BLOCK_D_QUESTIONS: Question[] = [
     "reference": "ISO 9000:2015 cap. 3 (términos y definiciones).",
     "options": [
       {
-        "id": "9000-proceso",
-        "tag": "ISO 9000",
-        "label": "Proceso (entradas y salidas)"
-      },
-      {
-        "id": "9000-calidad",
-        "tag": "ISO 9000",
-        "label": "Calidad"
-      },
-      {
-        "id": "9000-requisito",
-        "tag": "ISO 9000",
-        "label": "Requisito implícito"
-      },
-      {
         "id": "9000-nc",
         "tag": "ISO 9000",
-        "label": "No conformidad y defecto"
+        "label": "No conformidad = incumplir un requisito; defecto = NC relacionada con el uso previsto"
+      },
+      {
+        "id": "9000-nc-2",
+        "tag": "ISO 9000",
+        "label": "No conformidad = defecto grave; defecto = incumplir un requisito"
+      },
+      {
+        "id": "9000-nc-3",
+        "tag": "ISO 9000",
+        "label": "Son sinónimos y se usan indistintamente"
+      },
+      {
+        "id": "9000-nc-4",
+        "tag": "ISO 9000",
+        "label": "Defecto = incumplir un requisito legal; NC = incumplir un requisito del cliente"
       }
     ],
     "correctOptionId": "9000-nc"
@@ -441,24 +441,24 @@ export const BLOCK_D_QUESTIONS: Question[] = [
     "reference": "ISO 9000:2015 cap. 3 (términos y definiciones) | ISO 9001 cap. 0.3.1 y cl. 4.4.",
     "options": [
       {
-        "id": "9000-eficacia",
-        "tag": "ISO 9000",
-        "label": "Eficacia y eficiencia"
-      },
-      {
         "id": "9000-proceso",
         "tag": "ISO 9000",
-        "label": "Proceso (entradas y salidas)"
+        "label": "Conjunto de actividades interrelacionadas que transforman entradas en un resultado previsto"
       },
       {
-        "id": "9000-calidad",
+        "id": "9000-proceso-2",
         "tag": "ISO 9000",
-        "label": "Calidad"
+        "label": "Área o departamento de la organización"
       },
       {
-        "id": "9000-nc",
+        "id": "9000-proceso-3",
         "tag": "ISO 9000",
-        "label": "No conformidad y defecto"
+        "label": "Documento que describe la política de calidad"
+      },
+      {
+        "id": "9000-proceso-4",
+        "tag": "ISO 9000",
+        "label": "Registro de las auditorías internas"
       }
     ],
     "correctOptionId": "9000-proceso"
@@ -507,24 +507,24 @@ export const BLOCK_D_QUESTIONS: Question[] = [
     "reference": "ISO/IEC 17021-1 y práctica de los organismos de certificación.",
     "options": [
       {
-        "id": "cert-sistema",
-        "tag": "ISO 9001",
-        "label": "Certifica el SGC, no el producto"
-      },
-      {
-        "id": "cert-acreditacion",
-        "tag": "INACAL",
-        "label": "Acreditación de organismos"
-      },
-      {
-        "id": "cert-imparcial",
-        "tag": "ISO/IEC 17021-1",
-        "label": "Imparcialidad"
-      },
-      {
         "id": "cert-ciclo",
         "tag": "ISO/IEC 17021-1",
-        "label": "Ciclo de certificación"
+        "label": "3 años, con seguimiento anual y recertificación"
+      },
+      {
+        "id": "cert-ciclo-2",
+        "tag": "ISO/IEC 17021-1",
+        "label": "5 años, sin auditorías de seguimiento"
+      },
+      {
+        "id": "cert-ciclo-3",
+        "tag": "ISO/IEC 17021-1",
+        "label": "Indefinido, mientras se pague la cuota"
+      },
+      {
+        "id": "cert-ciclo-4",
+        "tag": "ISO/IEC 17021-1",
+        "label": "1 año, con una única auditoría inicial"
       }
     ],
     "correctOptionId": "cert-ciclo"
@@ -542,22 +542,22 @@ export const BLOCK_D_QUESTIONS: Question[] = [
       {
         "id": "cert-imparcial",
         "tag": "ISO/IEC 17021-1",
-        "label": "Imparcialidad"
+        "label": "La certificadora no puede consultar y auditar al mismo cliente"
       },
       {
-        "id": "cert-ciclo",
+        "id": "cert-imparcial-2",
         "tag": "ISO/IEC 17021-1",
-        "label": "Ciclo de certificación"
+        "label": "El cliente no puede contratar consultoría externa"
       },
       {
-        "id": "cert-acreditacion",
-        "tag": "INACAL",
-        "label": "Acreditación de organismos"
+        "id": "cert-imparcial-3",
+        "tag": "ISO/IEC 17021-1",
+        "label": "La certificadora puede consultar si el cliente lo autoriza"
       },
       {
-        "id": "cert-sistema",
-        "tag": "ISO 9001",
-        "label": "Certifica el SGC, no el producto"
+        "id": "cert-imparcial-4",
+        "tag": "ISO/IEC 17021-1",
+        "label": "La auditoría de certificación siempre es interna"
       }
     ],
     "correctOptionId": "cert-imparcial"
@@ -573,24 +573,24 @@ export const BLOCK_D_QUESTIONS: Question[] = [
     "reference": "INACAL (Dirección de Acreditación) | NTP-ISO 9001:2015.",
     "options": [
       {
-        "id": "cert-imparcial",
-        "tag": "ISO/IEC 17021-1",
-        "label": "Imparcialidad"
-      },
-      {
-        "id": "cert-sistema",
-        "tag": "ISO 9001",
-        "label": "Certifica el SGC, no el producto"
-      },
-      {
         "id": "cert-acreditacion",
         "tag": "INACAL",
-        "label": "Acreditación de organismos"
+        "label": "Que el organismo esté acreditado; en Perú acredita INACAL"
       },
       {
-        "id": "cert-ciclo",
-        "tag": "ISO/IEC 17021-1",
-        "label": "Ciclo de certificación"
+        "id": "cert-acreditacion-2",
+        "tag": "INACAL",
+        "label": "Que el certificado lo emita cualquier consultora"
+      },
+      {
+        "id": "cert-acreditacion-3",
+        "tag": "INACAL",
+        "label": "Que la norma sea ISO 9001 y no NTP-ISO 9001"
+      },
+      {
+        "id": "cert-acreditacion-4",
+        "tag": "INACAL",
+        "label": "Que el cliente certifique a su proveedor"
       }
     ],
     "correctOptionId": "cert-acreditacion"
@@ -608,22 +608,22 @@ export const BLOCK_D_QUESTIONS: Question[] = [
       {
         "id": "doc-mantener",
         "tag": "A.6",
-        "label": "Mantener vs. conservar información documentada"
+        "label": "Mantener = documentos que describen qué hacer; conservar = evidencias de lo hecho"
       },
       {
-        "id": "doc-verbos",
-        "tag": "0.1",
-        "label": "Formas verbales: debe, debería, puede"
+        "id": "doc-mantener-2",
+        "tag": "A.6",
+        "label": "Mantener = registros históricos; conservar = documentos vigentes"
       },
       {
-        "id": "7.5.3",
-        "tag": "7.5.3",
-        "label": "Control de la información documentada"
+        "id": "doc-mantener-3",
+        "tag": "A.6",
+        "label": "Son sinónimos y da igual cómo se archiven"
       },
       {
-        "id": "phva",
-        "tag": "0.3.2",
-        "label": "Ciclo PHVA"
+        "id": "doc-mantener-4",
+        "tag": "A.6",
+        "label": "Mantener = solo la política; conservar = solo los objetivos"
       }
     ],
     "correctOptionId": "doc-mantener"
@@ -641,22 +641,22 @@ export const BLOCK_D_QUESTIONS: Question[] = [
       {
         "id": "doc-verbos",
         "tag": "0.1",
-        "label": "Formas verbales: debe, debería, puede"
+        "label": "Debe = requisito; debería = recomendación; puede = permiso o posibilidad"
       },
       {
-        "id": "phva",
-        "tag": "0.3.2",
-        "label": "Ciclo PHVA"
+        "id": "doc-verbos-2",
+        "tag": "0.1",
+        "label": "Debe = recomendación; debería = requisito; puede = prohibición"
       },
       {
-        "id": "doc-mantener",
-        "tag": "A.6",
-        "label": "Mantener vs. conservar información documentada"
+        "id": "doc-verbos-3",
+        "tag": "0.1",
+        "label": "Debe = permiso; debería = posibilidad; puede = requisito"
       },
       {
-        "id": "7.5.1",
-        "tag": "7.5.1",
-        "label": "Información documentada: generalidades"
+        "id": "doc-verbos-4",
+        "tag": "0.1",
+        "label": "Las tres formas son obligatorias"
       }
     ],
     "correctOptionId": "doc-verbos"
@@ -672,24 +672,24 @@ export const BLOCK_D_QUESTIONS: Question[] = [
     "reference": "ISO 9001 cap. 0.3.2 (Figura 2).",
     "options": [
       {
-        "id": "doc-mantener",
-        "tag": "A.6",
-        "label": "Mantener vs. conservar información documentada"
-      },
-      {
-        "id": "7.5.1",
-        "tag": "7.5.1",
-        "label": "Información documentada: generalidades"
-      },
-      {
-        "id": "9.1.3",
-        "tag": "9.1.3",
-        "label": "Análisis y evaluación"
-      },
-      {
         "id": "doc-phva",
         "tag": "0.3.2",
-        "label": "PHVA y estructura de los capítulos 4 a 10"
+        "label": "Planificar: 6 y 7; Hacer: 8; Verificar: 9; Actuar: 10 (4 y 5 son base)"
+      },
+      {
+        "id": "doc-phva-2",
+        "tag": "0.3.2",
+        "label": "Planificar: 8; Hacer: 9; Verificar: 10; Actuar: 6 y 7"
+      },
+      {
+        "id": "doc-phva-3",
+        "tag": "0.3.2",
+        "label": "Planificar: 9; Hacer: 10; Verificar: 6; Actuar: 7"
+      },
+      {
+        "id": "doc-phva-4",
+        "tag": "0.3.2",
+        "label": "Planificar: 4 y 5; Hacer: 6 y 7; Verificar: 8; Actuar: 9 y 10"
       }
     ],
     "correctOptionId": "doc-phva"
@@ -738,14 +738,14 @@ export const BLOCK_D_QUESTIONS: Question[] = [
     "reference": "Cláusula 7.5.1 | Anexo A.6.",
     "options": [
       {
+        "id": "4.4",
+        "tag": "4.4",
+        "label": "SGC y sus procesos"
+      },
+      {
         "id": "7.5.1",
         "tag": "7.5.1",
         "label": "Información documentada: generalidades"
-      },
-      {
-        "id": "7.3",
-        "tag": "7.3",
-        "label": "Toma de conciencia"
       },
       {
         "id": "7.5.3",
@@ -753,9 +753,9 @@ export const BLOCK_D_QUESTIONS: Question[] = [
         "label": "Control de la información documentada"
       },
       {
-        "id": "7.2",
-        "tag": "7.2",
-        "label": "Competencia"
+        "id": "8.1",
+        "tag": "8.1",
+        "label": "Planificación y control operacional"
       }
     ],
     "correctOptionId": "7.5.1"

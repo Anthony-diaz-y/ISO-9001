@@ -12,24 +12,24 @@ export const BLOCK_B_QUESTIONS: Question[] = [
     "reference": "Cláusula 7.1.1 (incisos a y b).",
     "options": [
       {
-        "id": "7.5.1",
-        "tag": "7.5.1",
-        "label": "Información documentada: generalidades"
-      },
-      {
-        "id": "7.1.5",
-        "tag": "7.1.5",
-        "label": "Recursos de seguimiento y medición"
-      },
-      {
         "id": "7.1.1",
         "tag": "7.1.1",
         "label": "Recursos: generalidades"
       },
       {
-        "id": "8.5.1",
-        "tag": "8.5.1",
-        "label": "Producción y prestación del servicio"
+        "id": "7.1.2",
+        "tag": "7.1.2",
+        "label": "Personas"
+      },
+      {
+        "id": "7.1.3",
+        "tag": "7.1.3",
+        "label": "Infraestructura"
+      },
+      {
+        "id": "7.1.4",
+        "tag": "7.1.4",
+        "label": "Ambiente para la operación"
       }
     ],
     "correctOptionId": "7.1.1"
@@ -50,14 +50,14 @@ export const BLOCK_B_QUESTIONS: Question[] = [
         "label": "Recursos: generalidades"
       },
       {
-        "id": "8.5.1",
-        "tag": "8.5.1",
-        "label": "Producción y prestación del servicio"
-      },
-      {
         "id": "7.1.2",
         "tag": "7.1.2",
         "label": "Personas"
+      },
+      {
+        "id": "7.1.3",
+        "tag": "7.1.3",
+        "label": "Infraestructura"
       },
       {
         "id": "7.2",
@@ -78,24 +78,24 @@ export const BLOCK_B_QUESTIONS: Question[] = [
     "reference": "Cláusula 7.1.3 (Infraestructura).",
     "options": [
       {
+        "id": "7.1.2",
+        "tag": "7.1.2",
+        "label": "Personas"
+      },
+      {
         "id": "7.1.3",
         "tag": "7.1.3",
         "label": "Infraestructura"
       },
       {
-        "id": "7.5.3",
-        "tag": "7.5.3",
-        "label": "Control de la información documentada"
-      },
-      {
-        "id": "7.1.6",
-        "tag": "7.1.6",
-        "label": "Conocimientos de la organización"
-      },
-      {
         "id": "7.1.4",
         "tag": "7.1.4",
         "label": "Ambiente para la operación"
+      },
+      {
+        "id": "7.1.5",
+        "tag": "7.1.5",
+        "label": "Recursos de seguimiento y medición"
       }
     ],
     "correctOptionId": "7.1.3"
@@ -111,9 +111,9 @@ export const BLOCK_B_QUESTIONS: Question[] = [
     "reference": "Cláusula 7.1.4 y su Nota (factores sociales, psicológicos y físicos).",
     "options": [
       {
-        "id": "8.5.1",
-        "tag": "8.5.1",
-        "label": "Producción y prestación del servicio"
+        "id": "7.1.2",
+        "tag": "7.1.2",
+        "label": "Personas"
       },
       {
         "id": "7.1.3",
@@ -126,9 +126,9 @@ export const BLOCK_B_QUESTIONS: Question[] = [
         "label": "Ambiente para la operación"
       },
       {
-        "id": "9.1.3",
-        "tag": "9.1.3",
-        "label": "Análisis y evaluación"
+        "id": "7.1.6",
+        "tag": "7.1.6",
+        "label": "Conocimientos de la organización"
       }
     ],
     "correctOptionId": "7.1.4"
@@ -149,22 +149,22 @@ export const BLOCK_B_QUESTIONS: Question[] = [
         "label": "Recursos: generalidades"
       },
       {
-        "id": "7.5.1",
-        "tag": "7.5.1",
-        "label": "Información documentada: generalidades"
+        "id": "7.1.3",
+        "tag": "7.1.3",
+        "label": "Infraestructura"
       },
       {
-        "id": "7.1.5",
-        "tag": "7.1.5",
-        "label": "Recursos de seguimiento y medición"
+        "id": "7.1.5.1",
+        "tag": "7.1.5.1",
+        "label": "Recursos de seguimiento y medición: generalidades"
       },
       {
-        "id": "7.4",
-        "tag": "7.4",
-        "label": "Comunicación"
+        "id": "7.5.3",
+        "tag": "7.5.3",
+        "label": "Control de la información documentada"
       }
     ],
-    "correctOptionId": "7.1.5"
+    "correctOptionId": "7.1.5.1"
   },
   {
     "id": 32,
@@ -177,27 +177,27 @@ export const BLOCK_B_QUESTIONS: Question[] = [
     "reference": "Cláusula 7.1.5.2 (Trazabilidad de las mediciones).",
     "options": [
       {
-        "id": "7.5.1",
-        "tag": "7.5.1",
-        "label": "Información documentada: generalidades"
-      },
-      {
-        "id": "7.1.5",
-        "tag": "7.1.5",
-        "label": "Recursos de seguimiento y medición"
-      },
-      {
         "id": "7.1.1",
         "tag": "7.1.1",
         "label": "Recursos: generalidades"
       },
       {
-        "id": "7.4",
-        "tag": "7.4",
-        "label": "Comunicación"
+        "id": "7.1.5.2",
+        "tag": "7.1.5.2",
+        "label": "Trazabilidad de las mediciones"
+      },
+      {
+        "id": "7.5.3",
+        "tag": "7.5.3",
+        "label": "Control de la información documentada"
+      },
+      {
+        "id": "8.7",
+        "tag": "8.7",
+        "label": "Salidas no conformes"
       }
     ],
-    "correctOptionId": "7.1.5"
+    "correctOptionId": "7.1.5.2"
   },
   {
     "id": 33,
@@ -210,24 +210,24 @@ export const BLOCK_B_QUESTIONS: Question[] = [
     "reference": "Cláusula 7.1.6 y Anexo A.7.",
     "options": [
       {
-        "id": "aud-programa",
-        "tag": "ISO 19011",
-        "label": "Programa de auditoría y riesgos"
-      },
-      {
-        "id": "8.3.6",
-        "tag": "8.3.6",
-        "label": "Diseño y desarrollo: cambios"
-      },
-      {
-        "id": "8.1",
-        "tag": "8.1",
-        "label": "Planificación y control operacional"
+        "id": "7.1.2",
+        "tag": "7.1.2",
+        "label": "Personas"
       },
       {
         "id": "7.1.6",
         "tag": "7.1.6",
         "label": "Conocimientos de la organización"
+      },
+      {
+        "id": "7.2",
+        "tag": "7.2",
+        "label": "Competencia"
+      },
+      {
+        "id": "7.5.3",
+        "tag": "7.5.3",
+        "label": "Control de la información documentada"
       }
     ],
     "correctOptionId": "7.1.6"
@@ -243,24 +243,24 @@ export const BLOCK_B_QUESTIONS: Question[] = [
     "reference": "Cláusula 7.2 (incisos a al d).",
     "options": [
       {
-        "id": "7.1.3",
-        "tag": "7.1.3",
-        "label": "Infraestructura"
-      },
-      {
-        "id": "7.5.3",
-        "tag": "7.5.3",
-        "label": "Control de la información documentada"
-      },
-      {
-        "id": "7.1.1",
-        "tag": "7.1.1",
-        "label": "Recursos: generalidades"
+        "id": "7.1.2",
+        "tag": "7.1.2",
+        "label": "Personas"
       },
       {
         "id": "7.2",
         "tag": "7.2",
         "label": "Competencia"
+      },
+      {
+        "id": "7.3",
+        "tag": "7.3",
+        "label": "Toma de conciencia"
+      },
+      {
+        "id": "7.5.3",
+        "tag": "7.5.3",
+        "label": "Control de la información documentada"
       }
     ],
     "correctOptionId": "7.2"
@@ -276,24 +276,24 @@ export const BLOCK_B_QUESTIONS: Question[] = [
     "reference": "Cláusula 7.3 (incisos a al d).",
     "options": [
       {
-        "id": "7.3",
-        "tag": "7.3",
-        "label": "Toma de conciencia"
-      },
-      {
         "id": "7.2",
         "tag": "7.2",
         "label": "Competencia"
       },
       {
-        "id": "7.1.4",
-        "tag": "7.1.4",
-        "label": "Ambiente para la operación"
+        "id": "7.3",
+        "tag": "7.3",
+        "label": "Toma de conciencia"
       },
       {
-        "id": "7.1.6",
-        "tag": "7.1.6",
-        "label": "Conocimientos de la organización"
+        "id": "7.4",
+        "tag": "7.4",
+        "label": "Comunicación"
+      },
+      {
+        "id": "7.5.3",
+        "tag": "7.5.3",
+        "label": "Control de la información documentada"
       }
     ],
     "correctOptionId": "7.3"
@@ -314,9 +314,9 @@ export const BLOCK_B_QUESTIONS: Question[] = [
         "label": "Competencia"
       },
       {
-        "id": "7.1.2",
-        "tag": "7.1.2",
-        "label": "Personas"
+        "id": "7.3",
+        "tag": "7.3",
+        "label": "Toma de conciencia"
       },
       {
         "id": "7.4",
@@ -324,9 +324,9 @@ export const BLOCK_B_QUESTIONS: Question[] = [
         "label": "Comunicación"
       },
       {
-        "id": "7.1.1",
-        "tag": "7.1.1",
-        "label": "Recursos: generalidades"
+        "id": "7.5.3",
+        "tag": "7.5.3",
+        "label": "Control de la información documentada"
       }
     ],
     "correctOptionId": "7.4"
@@ -347,19 +347,19 @@ export const BLOCK_B_QUESTIONS: Question[] = [
         "label": "Competencia"
       },
       {
+        "id": "7.5.1",
+        "tag": "7.5.1",
+        "label": "Información documentada: generalidades"
+      },
+      {
         "id": "7.5.3",
         "tag": "7.5.3",
         "label": "Control de la información documentada"
       },
       {
-        "id": "7.1.2",
-        "tag": "7.1.2",
-        "label": "Personas"
-      },
-      {
-        "id": "7.1.4",
-        "tag": "7.1.4",
-        "label": "Ambiente para la operación"
+        "id": "8.5.1",
+        "tag": "8.5.1",
+        "label": "Producción y prestación del servicio"
       }
     ],
     "correctOptionId": "7.5.3"
@@ -380,9 +380,9 @@ export const BLOCK_B_QUESTIONS: Question[] = [
         "label": "Planificación y control operacional"
       },
       {
-        "id": "7.5.1",
-        "tag": "7.5.1",
-        "label": "Información documentada: generalidades"
+        "id": "8.3.5",
+        "tag": "8.3.5",
+        "label": "Diseño y desarrollo: salidas"
       },
       {
         "id": "8.4.3",
@@ -390,9 +390,9 @@ export const BLOCK_B_QUESTIONS: Question[] = [
         "label": "Proveedores externos: información"
       },
       {
-        "id": "8.3.6",
-        "tag": "8.3.6",
-        "label": "Diseño y desarrollo: cambios"
+        "id": "8.5.1",
+        "tag": "8.5.1",
+        "label": "Producción y prestación del servicio"
       }
     ],
     "correctOptionId": "8.1"
@@ -408,19 +408,19 @@ export const BLOCK_B_QUESTIONS: Question[] = [
     "reference": "Cláusula 8.1 (último párrafo) y 8.4.",
     "options": [
       {
-        "id": "8.2.2",
-        "tag": "8.2.2",
-        "label": "Determinación de requisitos"
-      },
-      {
-        "id": "8.2.3",
-        "tag": "8.2.3",
-        "label": "Revisión de requisitos"
-      },
-      {
         "id": "8.1",
         "tag": "8.1",
         "label": "Planificación y control operacional"
+      },
+      {
+        "id": "8.4",
+        "tag": "8.4",
+        "label": "Control de procesos suministrados externamente"
+      },
+      {
+        "id": "8.2.2",
+        "tag": "8.2.2",
+        "label": "Determinación de requisitos"
       },
       {
         "id": "8.3.5",
@@ -428,7 +428,7 @@ export const BLOCK_B_QUESTIONS: Question[] = [
         "label": "Diseño y desarrollo: salidas"
       }
     ],
-    "correctOptionId": "8.1"
+    "correctOptionId": "8.4"
   },
   {
     "id": 40,
@@ -441,24 +441,24 @@ export const BLOCK_B_QUESTIONS: Question[] = [
     "reference": "Cláusula 8.2.1 (incisos a al e).",
     "options": [
       {
-        "id": "8.2.3",
-        "tag": "8.2.3",
-        "label": "Revisión de requisitos"
-      },
-      {
-        "id": "8.3.5",
-        "tag": "8.3.5",
-        "label": "Diseño y desarrollo: salidas"
-      },
-      {
         "id": "8.2.1",
         "tag": "8.2.1",
         "label": "Comunicación con el cliente"
       },
       {
-        "id": "8.3.3",
-        "tag": "8.3.3",
-        "label": "Diseño y desarrollo: entradas"
+        "id": "8.2.2",
+        "tag": "8.2.2",
+        "label": "Determinación de requisitos"
+      },
+      {
+        "id": "8.2.3",
+        "tag": "8.2.3",
+        "label": "Revisión de requisitos"
+      },
+      {
+        "id": "8.2.4",
+        "tag": "8.2.4",
+        "label": "Cambios en los requisitos"
       }
     ],
     "correctOptionId": "8.2.1"
@@ -468,30 +468,30 @@ export const BLOCK_B_QUESTIONS: Question[] = [
     "block": "B",
     "title": "EMPRESA DE ENTREGAS EN TRUJILLO (PROMETER LO QUE NO SE PUEDE)",
     "situation": "La publicidad dice 'entrega en 24 horas a toda La Libertad', pero la capacidad real alcanza solo para Trujillo. El 40% de las entregas fuera de la ciudad llega tarde.",
-    "question": "¿Qué requisito de 8.2.2 se incumple?",
+    "question": "¿Qué requisito se incumple al prometer lo que no se puede cumplir?",
     "answer": "Asegurar que la organización puede cumplir con las declaraciones acerca de los productos y servicios que ofrece, además de definir los requisitos aplicables.",
     "simple": "Es poner en el menú un plato que la cocina no sabe preparar.",
     "reference": "Cláusula 8.2.2 b).",
     "options": [
+      {
+        "id": "8.2.1",
+        "tag": "8.2.1",
+        "label": "Comunicación con el cliente"
+      },
       {
         "id": "8.2.2",
         "tag": "8.2.2",
         "label": "Determinación de requisitos"
       },
       {
-        "id": "8.4.2",
-        "tag": "8.4.2",
-        "label": "Proveedores externos: tipo y alcance del control"
+        "id": "8.2.3",
+        "tag": "8.2.3",
+        "label": "Revisión de requisitos"
       },
       {
-        "id": "8.3.5",
-        "tag": "8.3.5",
-        "label": "Diseño y desarrollo: salidas"
-      },
-      {
-        "id": "8.1",
-        "tag": "8.1",
-        "label": "Planificación y control operacional"
+        "id": "8.2.4",
+        "tag": "8.2.4",
+        "label": "Cambios en los requisitos"
       }
     ],
     "correctOptionId": "8.2.2"
@@ -507,6 +507,16 @@ export const BLOCK_B_QUESTIONS: Question[] = [
     "reference": "Cláusula 8.2.3.1 y 8.2.3.2.",
     "options": [
       {
+        "id": "8.2.1",
+        "tag": "8.2.1",
+        "label": "Comunicación con el cliente"
+      },
+      {
+        "id": "8.2.2",
+        "tag": "8.2.2",
+        "label": "Determinación de requisitos"
+      },
+      {
         "id": "8.2.3",
         "tag": "8.2.3",
         "label": "Revisión de requisitos"
@@ -515,16 +525,6 @@ export const BLOCK_B_QUESTIONS: Question[] = [
         "id": "8.2.4",
         "tag": "8.2.4",
         "label": "Cambios en los requisitos"
-      },
-      {
-        "id": "7.5.1",
-        "tag": "7.5.1",
-        "label": "Información documentada: generalidades"
-      },
-      {
-        "id": "8.3.2",
-        "tag": "8.3.2",
-        "label": "Diseño y desarrollo: planificación"
       }
     ],
     "correctOptionId": "8.2.3"
@@ -540,24 +540,24 @@ export const BLOCK_B_QUESTIONS: Question[] = [
     "reference": "Cláusula 8.2.4.",
     "options": [
       {
+        "id": "8.2.1",
+        "tag": "8.2.1",
+        "label": "Comunicación con el cliente"
+      },
+      {
+        "id": "8.2.3",
+        "tag": "8.2.3",
+        "label": "Revisión de requisitos"
+      },
+      {
         "id": "8.2.4",
         "tag": "8.2.4",
         "label": "Cambios en los requisitos"
       },
       {
-        "id": "8.3.3",
-        "tag": "8.3.3",
-        "label": "Diseño y desarrollo: entradas"
-      },
-      {
         "id": "8.3.6",
         "tag": "8.3.6",
         "label": "Diseño y desarrollo: cambios"
-      },
-      {
-        "id": "8.3.2",
-        "tag": "8.3.2",
-        "label": "Diseño y desarrollo: planificación"
       }
     ],
     "correctOptionId": "8.2.4"
@@ -573,24 +573,24 @@ export const BLOCK_B_QUESTIONS: Question[] = [
     "reference": "Cláusula 8.3.2 (incisos a al j).",
     "options": [
       {
-        "id": "8.4.2",
-        "tag": "8.4.2",
-        "label": "Proveedores externos: tipo y alcance del control"
-      },
-      {
-        "id": "8.2.1",
-        "tag": "8.2.1",
-        "label": "Comunicación con el cliente"
-      },
-      {
-        "id": "8.2.4",
-        "tag": "8.2.4",
-        "label": "Cambios en los requisitos"
+        "id": "8.3.1",
+        "tag": "8.3.1",
+        "label": "Diseño y desarrollo: generalidades"
       },
       {
         "id": "8.3.2",
         "tag": "8.3.2",
         "label": "Diseño y desarrollo: planificación"
+      },
+      {
+        "id": "8.3.3",
+        "tag": "8.3.3",
+        "label": "Diseño y desarrollo: entradas"
+      },
+      {
+        "id": "8.3.4",
+        "tag": "8.3.4",
+        "label": "Diseño y desarrollo: controles"
       }
     ],
     "correctOptionId": "8.3.2"
@@ -606,14 +606,9 @@ export const BLOCK_B_QUESTIONS: Question[] = [
     "reference": "Cláusula 8.3.3.",
     "options": [
       {
-        "id": "8.2.3",
-        "tag": "8.2.3",
-        "label": "Revisión de requisitos"
-      },
-      {
-        "id": "7.5.1",
-        "tag": "7.5.1",
-        "label": "Información documentada: generalidades"
+        "id": "8.3.2",
+        "tag": "8.3.2",
+        "label": "Diseño y desarrollo: planificación"
       },
       {
         "id": "8.3.3",
@@ -621,9 +616,14 @@ export const BLOCK_B_QUESTIONS: Question[] = [
         "label": "Diseño y desarrollo: entradas"
       },
       {
-        "id": "8.4.1",
-        "tag": "8.4.1",
-        "label": "Proveedores externos: evaluación y selección"
+        "id": "8.3.4",
+        "tag": "8.3.4",
+        "label": "Diseño y desarrollo: controles"
+      },
+      {
+        "id": "8.3.5",
+        "tag": "8.3.5",
+        "label": "Diseño y desarrollo: salidas"
       }
     ],
     "correctOptionId": "8.3.3"
@@ -639,6 +639,11 @@ export const BLOCK_B_QUESTIONS: Question[] = [
     "reference": "Cláusula 8.3.4 c) y d) y Nota.",
     "options": [
       {
+        "id": "8.3.2",
+        "tag": "8.3.2",
+        "label": "Diseño y desarrollo: planificación"
+      },
+      {
         "id": "8.3.3",
         "tag": "8.3.3",
         "label": "Diseño y desarrollo: entradas"
@@ -649,14 +654,9 @@ export const BLOCK_B_QUESTIONS: Question[] = [
         "label": "Diseño y desarrollo: controles"
       },
       {
-        "id": "8.2.4",
-        "tag": "8.2.4",
-        "label": "Cambios en los requisitos"
-      },
-      {
-        "id": "8.3.2",
-        "tag": "8.3.2",
-        "label": "Diseño y desarrollo: planificación"
+        "id": "8.3.5",
+        "tag": "8.3.5",
+        "label": "Diseño y desarrollo: salidas"
       }
     ],
     "correctOptionId": "8.3.4"
@@ -672,19 +672,19 @@ export const BLOCK_B_QUESTIONS: Question[] = [
     "reference": "Cláusula 8.3.5 (incisos a al d).",
     "options": [
       {
+        "id": "8.3.2",
+        "tag": "8.3.2",
+        "label": "Diseño y desarrollo: planificación"
+      },
+      {
         "id": "8.3.3",
         "tag": "8.3.3",
         "label": "Diseño y desarrollo: entradas"
       },
       {
-        "id": "8.1",
-        "tag": "8.1",
-        "label": "Planificación y control operacional"
-      },
-      {
-        "id": "8.4.2",
-        "tag": "8.4.2",
-        "label": "Proveedores externos: tipo y alcance del control"
+        "id": "8.3.4",
+        "tag": "8.3.4",
+        "label": "Diseño y desarrollo: controles"
       },
       {
         "id": "8.3.5",
@@ -705,24 +705,24 @@ export const BLOCK_B_QUESTIONS: Question[] = [
     "reference": "Cláusula 8.3.6 (incisos a al d).",
     "options": [
       {
-        "id": "8.3.6",
-        "tag": "8.3.6",
-        "label": "Diseño y desarrollo: cambios"
-      },
-      {
         "id": "8.3.2",
         "tag": "8.3.2",
         "label": "Diseño y desarrollo: planificación"
       },
       {
-        "id": "8.4.1",
-        "tag": "8.4.1",
-        "label": "Proveedores externos: evaluación y selección"
+        "id": "8.3.4",
+        "tag": "8.3.4",
+        "label": "Diseño y desarrollo: controles"
       },
       {
-        "id": "8.4.2",
-        "tag": "8.4.2",
-        "label": "Proveedores externos: tipo y alcance del control"
+        "id": "8.3.5",
+        "tag": "8.3.5",
+        "label": "Diseño y desarrollo: salidas"
+      },
+      {
+        "id": "8.3.6",
+        "tag": "8.3.6",
+        "label": "Diseño y desarrollo: cambios"
       }
     ],
     "correctOptionId": "8.3.6"
@@ -738,24 +738,24 @@ export const BLOCK_B_QUESTIONS: Question[] = [
     "reference": "Cláusula 8.4.1 (último párrafo).",
     "options": [
       {
-        "id": "7.5.1",
-        "tag": "7.5.1",
-        "label": "Información documentada: generalidades"
-      },
-      {
-        "id": "8.2.1",
-        "tag": "8.2.1",
-        "label": "Comunicación con el cliente"
-      },
-      {
-        "id": "8.3.3",
-        "tag": "8.3.3",
-        "label": "Diseño y desarrollo: entradas"
-      },
-      {
         "id": "8.4.1",
         "tag": "8.4.1",
         "label": "Proveedores externos: evaluación y selección"
+      },
+      {
+        "id": "8.4.2",
+        "tag": "8.4.2",
+        "label": "Proveedores externos: tipo y alcance del control"
+      },
+      {
+        "id": "8.4.3",
+        "tag": "8.4.3",
+        "label": "Proveedores externos: información"
+      },
+      {
+        "id": "8.5.4",
+        "tag": "8.5.4",
+        "label": "Preservación"
       }
     ],
     "correctOptionId": "8.4.1"
@@ -765,33 +765,33 @@ export const BLOCK_B_QUESTIONS: Question[] = [
     "block": "B",
     "title": "CLÍNICA EN MIRAFLORES (PROVEEDOR QUE ATIENDE POR ELLA)",
     "situation": "Una empresa de ambulancias terceriza traslados en nombre de la clínica. La clínica no define controles ni verifica el servicio. Un traslado tardío causó una queja formal del paciente.",
-    "question": "¿En cuál de las tres situaciones de 8.4.1 cae este caso?",
+    "question": "¿Qué situación de 8.4.1 corresponde a este caso?",
     "answer": "Cuando el proveedor externo da productos o servicios directamente al cliente en nombre de la organización. Deben controlarse como propios.",
     "simple": "Es mandar a un tercero con tu uniforme a atender y no verificar cómo lo trata.",
     "reference": "Cláusula 8.4.1 b) y 8.4.2.",
     "options": [
       {
-        "id": "8.4.1",
-        "tag": "8.4.1",
-        "label": "Proveedores externos: evaluación y selección"
+        "id": "8.4.1-a",
+        "tag": "8.4.1 a)",
+        "label": "El proveedor suministra un producto o servicio que se incorpora al de la organización"
       },
       {
-        "id": "8.3.3",
-        "tag": "8.3.3",
-        "label": "Diseño y desarrollo: entradas"
+        "id": "8.4.1-b",
+        "tag": "8.4.1 b)",
+        "label": "El proveedor actúa directamente ante el cliente en nombre de la organización"
       },
       {
-        "id": "8.2.2",
-        "tag": "8.2.2",
-        "label": "Determinación de requisitos"
+        "id": "8.4.1-c",
+        "tag": "8.4.1 c)",
+        "label": "La organización subcontrata un proceso completo de su operación"
       },
       {
-        "id": "8.3.2",
-        "tag": "8.3.2",
-        "label": "Diseño y desarrollo: planificación"
+        "id": "8.4.2",
+        "tag": "8.4.2",
+        "label": "Se controla igual que un proveedor interno, sin verificaciones"
       }
     ],
-    "correctOptionId": "8.4.1"
+    "correctOptionId": "8.4.1-b"
   },
   {
     "id": 51,
@@ -804,14 +804,9 @@ export const BLOCK_B_QUESTIONS: Question[] = [
     "reference": "Cláusula 8.4.2 c) y d).",
     "options": [
       {
-        "id": "8.3.4",
-        "tag": "8.3.4",
-        "label": "Diseño y desarrollo: controles"
-      },
-      {
-        "id": "8.4.3",
-        "tag": "8.4.3",
-        "label": "Proveedores externos: información"
+        "id": "8.4.1",
+        "tag": "8.4.1",
+        "label": "Proveedores externos: evaluación y selección"
       },
       {
         "id": "8.4.2",
@@ -819,9 +814,14 @@ export const BLOCK_B_QUESTIONS: Question[] = [
         "label": "Proveedores externos: tipo y alcance del control"
       },
       {
-        "id": "8.3.5",
-        "tag": "8.3.5",
-        "label": "Diseño y desarrollo: salidas"
+        "id": "8.4.3",
+        "tag": "8.4.3",
+        "label": "Proveedores externos: información"
+      },
+      {
+        "id": "8.5.4",
+        "tag": "8.5.4",
+        "label": "Preservación"
       }
     ],
     "correctOptionId": "8.4.2"
@@ -837,19 +837,19 @@ export const BLOCK_B_QUESTIONS: Question[] = [
     "reference": "Cláusula 8.4.3 (incisos a al f).",
     "options": [
       {
-        "id": "8.3.6",
-        "tag": "8.3.6",
-        "label": "Diseño y desarrollo: cambios"
+        "id": "8.2.2",
+        "tag": "8.2.2",
+        "label": "Determinación de requisitos"
       },
       {
-        "id": "8.2.4",
-        "tag": "8.2.4",
-        "label": "Cambios en los requisitos"
+        "id": "8.4.1",
+        "tag": "8.4.1",
+        "label": "Proveedores externos: evaluación y selección"
       },
       {
-        "id": "7.5.1",
-        "tag": "7.5.1",
-        "label": "Información documentada: generalidades"
+        "id": "8.4.2",
+        "tag": "8.4.2",
+        "label": "Proveedores externos: tipo y alcance del control"
       },
       {
         "id": "8.4.3",
